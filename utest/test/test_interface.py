@@ -9,7 +9,7 @@
 import unittest
 import os
 import FtpLibrary
-from FilesOperationLibrary.exception import KissFileException
+from FilesOperationLibrary.exception import TAFileException
 from FilesOperationLibrary.interface import OperateXml
 from FilesOperationLibrary.interface import OperateTxt
 from FilesOperationLibrary.interface import FtpUploadDownload
@@ -115,7 +115,7 @@ class TestKissFilesInterfaceSCFC(unittest.TestCase):
         try:
             self.xml_operator.read_xml_text(
                 './/managedObject[@class="LNCEL"][@distName="0"]/list/item/p[@name="dFpucchF1b"]')[0]
-        except KissFileException:
+        except TAFileException:
             self.assertTrue(True)
         else:
             self.assertTrue(False)

@@ -11,7 +11,7 @@ before_install:
   #      export PATH="~/jython/bin:$PATH";
   #      export INTERPRETER=jython;
   #  else
-  #      export INTERPRETER=python;
+  export INTERPRETER=python;
   #  fi
   # - sudo useradd test -m -s /bin/bash -G travis
   # - (echo 'test'; echo 'test') | sudo passwd test

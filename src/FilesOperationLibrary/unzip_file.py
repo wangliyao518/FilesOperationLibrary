@@ -12,7 +12,7 @@ import os
 import gzip
 import platform
 from ArchiveLibrary.keywords import ArchiveKeywords
-from ta_kiss_files.exception import KissFileException
+from exception import KissFileException
 
 TARS = ('.tar', '.tar.bz2', '.tar.gz', '.tgz', '.tz2', '.xz')
 ZIPS = ('.docx', '.egg', '.jar', '.odg', '.odp', '.ods', '.xlsx', '.odt',

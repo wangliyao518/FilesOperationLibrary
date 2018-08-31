@@ -42,10 +42,11 @@ matrix:
 
 before_script:
   - pip install robotframework==$ROBOTFRAMEWORK
+  - pip install robotstatuschecker
   - if [ "$JYTHON" == "true" ]; then
         export CLASSPATH=$CLASSPATH:$TRAVIS_BUILD_DIR/lib/*;
     else
         pip install paramiko==$PARAMIKO;
     fi
 script:
-- $INTERPRETER atest/run.py atest
+- $INTERPRETER utest/run.py utest

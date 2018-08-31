@@ -1,0 +1,13 @@
+build
+dist
+.DS_Store
+.idea
+*.pyc
+*.class
+*.egg-info
+*.swp
+results
+atest/testdata/keyfiles/id_rsa
+examples/output.xml
+examples/log.html
+examples/report.html

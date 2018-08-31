@@ -19,4 +19,4 @@ def run_unit_tests():
 
 
 if __name__ == '__main__':
-sys.exit(run_unit_tests())
+    sys.exit(run_unit_tests())

@@ -1,4 +1,4 @@
-sut_configuration
+files operation library
 ==================
 
 Basic files operation package with Robot Framework interface.
@@ -11,7 +11,7 @@ Requirements
 * pip >= 1.5
 
 
-NON UTE testline installation
+installation
 =============================
 
 | pip install -U -i http:// pip

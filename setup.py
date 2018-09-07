@@ -27,11 +27,11 @@ Framework :: Robot Framework :: Library
 
 setup(
     name='FilesOperationLibrary',
-    version=VERSION,
+    version='1.0.0',
     description='Robot Framework test library Files Operation',
     long_description=DESCRIPTION,
     author='leo',
-    author_email='@gmail.com',
+    author_email='liyaowang518@gmail.com',
     url='https://github.com',
     license='Apache License 2.0',
     keywords='robotframework testing testautomation Files Operation',

@@ -2,4 +2,4 @@ include *.txt
 include *.cfg
 include setup.py
 recursive-include test  test*.py
-recursive-include sut_configuration *.py *.txt
+recursive-include  *.py *.txt

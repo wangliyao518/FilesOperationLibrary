@@ -62,7 +62,8 @@ class TestKissFilesInterfaceXML(unittest.TestCase):
         self.assertEqual(result, '1000')
 
         self.xml_operator.teardown_xml()
-        os.remove("xml4test_test2.xml")
+        if os.path.exists("xml4test_test2.xml"):
+            os.remove("xml4test_test2.xml")
 
     def _test__read_PM_text(self):
         self.xml_operator.setup_xml(os.path.join(BASE_NAME, "PM.xml"))

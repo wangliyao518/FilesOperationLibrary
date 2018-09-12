@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<raml xmlns="raml21.xsd" version="2.1">
+ <cmData type="plan">
+  <header>
+   <log activeion="created" dateTime="2017-05-24T09:22:20"></log>
+   <log activeion="modified" dateTime="0117-07-31T02:52:05">Run migration rules in eqm</log>
+   <log activeion="create" dateTime="2004-01-01T00:01:39"></log>
+  </header>
+  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-1/dd-0" operation="create" version="17A_1701_07_1701_06">
+   <p name="applyOutOfSyncState">extendedddOnly</p>
+   <p name="ddApplyDeviceType">true</p>
+   <list name="ddProfile1">
+    <item>
+     <p name="ddProfilenumber">1</p>
+     <p name="ddProfilePriority">45</p>
+    </item>
+   </list>
+   <list name="ddProfile2">
+    <item>
+     <p name="ddInactiveivityT">4</p>
+     <p name="ddLongCycle">40ms</p>
+    </item>
+   </list>
+   <p name="stInactiveFactiveor">1</p>
+  </managedObject>
+  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-2/dd-0" operation="create" version="17A_1701_07_1701_06">
+   <p name="applyOutOfSyncState">extendedddOnly</p>
+   <p name="ddApplyDeviceType">true</p>
+   <list name="ddProfile1">
+    <item>
+     <p name="ddProfilenumber">1</p>
+     <p name="ddProfilePriority">45</p>
+    </item>
+   </list>
+   <list name="ddProfile2">
+    <item>
+     <p name="ddInactiveivityT">4</p>
+     <p name="ddLongCycle">40ms</p>
+     <p name="ddRetransT">4</p>
+    </item>
+   </list>
+   <p name="stInactiveFactiveor">1</p>
+  </managedObject>
+  <managedObject className="TEST:L2BTS" funName="TOPBTS-1/L2BTS-1" operation="create" version="17A_1701_07_1701_06">
+   <p name="active1xCsfb">false</p>
+   <p name="active8EpsBearers">false</p>
+    <item>
+     <p name="dlPollByte">25kB</p>
+     <p name="ueCategory">1</p>
+    </item>
+   </list>
+   <list name="amRlcPBTab2">
+    <item>
+     <p name="dlPollByte">125kB</p>
+     <p name="ueCategory">2</p>
+    </item>
+   </list>
+   <p name="anrOmExtEnable">true</p>
+   <p name="caMinDlAmbr">512</p>
+   <list name="cipherPre">
+    <item>
+     <p name="eea0">1</p>
+     <p name="eea1">8</p>
+    </item>
+   </list>
+   <p name="configWeightAlg">qciPriority</p>
+   <list name="integrityPre">
+    <item>
+     <p name="eia0">1</p>
+     <p name="eia1">9</p>
+    </item>
+   </list>
+   <p name="keyRefrMarg">50000</p>
+   <list name="pdcpProf1">
+    <item>
+     <p name="pdcpProfileId">1</p>
+     <p name="statusRepReq">3</p>
+    </item>
+   </list>
+   <list name="pdcpProf101">
+    <item>
+     <p name="pdcpProfileId">101</p>
+     <p name="rohcMaxCid">4</p>
+    </item>
+   </list>
+   <list name="pdcpProf102">
+    <item>
+     <p name="pdcpProfileId">102</p>
+    </item>
+   </list>
+   <list name="pdcpProf103">
+    <item>
+     <p name="pdcpProfileId">103</p>
+    </item>
+   </list>
+   <list name="pdcpProf104">
+    <item>
+     <p name="pdcpProfileId">104</p>
+    </item>
+   </list>
+   <list name="pdcpProf2">
+    <item>
+     <p name="pdcpProfileId">2</p>
+    </item>
+   </list>
+   <list name="pdcpProf3">
+    <item>
+     <p name="pdcpProfileId">3</p>
+     <p name="statusRepReq">3</p>
+    </item>
+   </list>
+   <list name="pdcpProf4">
+    <item>
+     <p name="pdcpProfileId">4</p>
+     <p name="statusRepReq">3</p>
+    </item>
+   </list>
+   <list name="pdcpProf5">
+    <item>
+     <p name="pdcpProfileId">5</p>
+     <p name="statusRepReq">3</p>
+    </item>
+   </list>
+   <p name="planFileactiveivationMode">totalServiceLossAllowed</p>
+   <p name="prioTopoHO">intra eNB HO prior inter eNB HO</p>
+   <list name="qciTab1">
+    <item>
+     <p name="delayTarget">80ms</p>
+     <p name="ddProfilenumber">2</p>
+     <p name="dscp">46</p>
+    </item>
+   </list>
+   <list name="qciTab2">
+    <item>
+     <p name="delayTarget">80ms</p>
+     <p name="ddProfilenumber">2</p>
+     <p name="dscp">26</p>
+    </item>
+   </list>
+   <p name="rachAccessForHoFromUtran">contentionBased</p>
+   <p name="recoveryResetDelay">0</p>
+   <list name="rlcProf1">
+    <item>
+     <p name="maxRetxThresh">t16</p>
+     <p name="pollPdu">64</p>
+    </item>
+   </list>
+   <list name="rlcProf101">
+    <item>
+     <p name="rlcProfileId">101</p>
+    </item>
+   </list>
+   <list name="rlcProf102">
+    <item>
+     <p name="rlcProfileId">102</p>
+    </item>
+   </list>
+   <list name="rlcProf103">
+    <item>
+     <p name="rlcProfileId">103</p>
+    </item>
+   </list>
+   <list name="rlcProf104">
+    <item>
+     <p name="rlcProfileId">104</p>
+    </item>
+   </list>
+   <list name="rlcProf2">
+    <item>
+     <p name="maxRetxThresh">t16</p>
+     <p name="pollPdu">64</p>
+    </item>
+   </list>
+   <list name="rlcProf3">
+    <item>
+     <p name="maxRetxThresh">t16</p>
+     <p name="pollPdu">64</p>
+    </item>
+   </list>
+   <list name="rlcProf4">
+    <item>
+     <p name="maxRetxThresh">t16</p>
+     <p name="pollPdu">64</p>
+    </item>
+   </list>
+   <p name="rlfBasedRCRdefault">false</p>
+   <p name="rrcGuardTimer">20</p>
+  </managedObject>
+  <managedObject className="TEST:LNCEL" funName="TOPBTS-1/L2BTS-1/LNCEL-1" operation="create" version="17A_1701_07_1701_06">
+   <p name="a1TimeToTriggerDeactiveInterMeas">480ms</p>
+   <p name="activeUlLnkAdp">eUlLa</p>
+   <p name="activeUlpcMethod">PuschCLPucchCL</p>
+   <list name="distPucch">
+    <item>
+     <p name="dFpucchF1">0</p>
+     <p name="dFpucchF1b">1</p>
+     <p name="dFpucchF2">0</p>
+     <p name="dFpucchF2a">0</p>
+     <p name="dFpucchF2b">0</p>
+    </item>
+   </list>
+   <p name="dSrTransMax">64m</p>
+   <p name="dlsUsePartPrb">PRBs with PSS or SSS and PBCH used</p>
+   <list name="ddProfile101">
+    <item>
+     <p name="ddInactiveivityT">10</p>
+     <p name="ddLongCycle">40ms</p>
+     <p name="ddOnDuratT">6</p>
+     <p name="ddProfilenumber">101</p>
+     <p name="ddProfilePriority">30</p>
+     <p name="ddRetransT">4</p>
+    </item>
+   </list>
+   <list name="ddProfile102">
+    <item>
+     <p name="ddInactiveivityT">2560</p>
+     <p name="ddLongCycle">1280ms</p>
+     <p name="ddOnDuratT">10</p>
+     <p name="ddProfilenumber">102</p>
+     <p name="ddProfilePriority">30</p>
+     <p name="ddRetransT">16</p>
+    </item>
+   </list>
+   <p name="eUlLaAtbPeriod">30</p>
+   <p name="redBwRpaEnUl">false</p>
+   <list name="ulpcPucchConfig">
+    <item>
+     <p name="ulpcLowlevCch">-103</p>
+     <p name="ulpcLowqualCch">1</p>
+     <p name="ulpcUplevCch">-98</p>
+     <p name="ulpcUpqualCch">4</p>
+    </item>
+   </list>
+   <list name="ulpcPuschConfig">
+    <item>
+     <p name="ulpcLowlevSch">-103</p>
+     <p name="ulpcLowqualSch">18</p>
+     <p name="ulpcUplevSch">-98</p>
+     <p name="ulpcUpqualSch">20</p>
+    </item>
+   </list>
+   <p name="ulpcRarespTpc">4</p>
+   <p name="ulpcReadPeriod">50</p>
+   <p name="upperMarginCio">10</p>
+  </managedObject>
+  <managedObject className="TEST:LNCEL" funName="TOPBTS-1/L2BTS-1/LNCEL-2" operation="create" version="17A_1701_07_1701_06">
+   <p name="a1TimeToTriggerDeactiveInterMeas">480ms</p>
+   <p name="a2RedirectQci1">enabled</p>>
+   <p name="csgType">openAccess</p>
+   <list name="distPucch">
+    <item>
+     <p name="dFpucchF1">0</p>
+     <p name="dFpucchF1b">1</p>
+     <p name="dFpucchF2">0</p>
+     <p name="dFpucchF2a">0</p>
+     <p name="dFpucchF2b">0</p>
+    </item>
+   </list>
+   <p name="dSrTransMax">64n</p>
+   <list name="ddProfile101">
+    <item>
+     <p name="ddInactiveivityT">10</p>
+     <p name="ddLongCycle">40ms</p>
+     <p name="ddOnDuratT">6</p>
+     <p name="ddProfilenumber">101</p>
+     <p name="ddProfilePriority">30</p>
+     <p name="ddRetransT">4</p>
+    </item>
+   </list>
+   <p name="eUlLaAtbPeriod">30</p>
+   <list name="redBwRbUlConfig">
+    <item>
+     <p name="redBwMaxRbUl">50</p>
+     <p name="redBwMinRbUl">1</p>
+    </item>
+   </list>
+   <p name="redBwRpaEnUl">false</p>
+   <list name="ulpcPucchConfig">
+    <item>
+     <p name="ulpcLowlevCch">-103</p>
+     <p name="ulpcLowqualCch">1</p>
+     <p name="ulpcUplevCch">-98</p>
+     <p name="ulpcUpqualCch">4</p>
+    </item>
+   </list>
+   <list name="ulpcPuschConfig">
+    <item>
+     <p name="ulpcLowlevSch">-103</p>
+     <p name="ulpcLowqualSch">18</p>
+     <p name="ulpcUplevSch">-98</p>
+     <p name="ulpcUpqualSch">20</p>
+    </item>
+   </list>
+   <p name="ulpcRarespTpc">400</p>
+  </managedObject>
+  <managedObject className="TEST:LNCEL_FDD" funName="TOPBTS-1/L2BTS-1/LNCEL-1/LNCEL_FDD-0" operation="create" version="17A_1701_07_1701_06">
+   <p name="active1TxIn2Tx">false</p>
+  </managedObject>
+  <managedObject className="TEST:LNCEL_FDD" funName="TOPBTS-1/L2BTS-1/LNCEL-2/LNCEL_FDD-0" operation="create" version="17A_1701_07_1701_06">
+   <p name="active1TxIn2Tx">false</p>
+  </managedObject>
+  <managedObject className="TEST:LNMME" funName="TOPBTS-1/L2BTS-1/LNMME-0" operation="create" version="17A_1701_07_1701_06">
+   <p name="administrativeState">unlocked</p>
+   <p name="ipAddrPrim">10.0.1.1</p>
+  </managedObject>
+  <managedObject className="com.company.TOPBTS:TOPBTS" funName="TOPBTS-1" operation="create" version="TOPBTS17A_1701_003">
+   <p name="btsName">2-16-CLOUD205</p>
+   <p name="latitude">511129227</p>
+   <p name="spareInUse">false</p>
+  </managedObject>
+  <managedObject className="com.company.srbts.eqm:CABLINK" funName="TOPBTS-1/EQM-1/HWTOP-1/CABLINK-1" operation="create" version="EQM17_1701_007">
+   <p name="firstEndpointLabel">OPT</p>
+   <p name="secondEndpointLabel">OPT</p>
+  </managedObject>
+  <managedObject className="com.company.srbts.eqm:CABLINK" funName="TOPBTS-1/EQM-1/HWTOP-1/CABLINK-2" operation="create" version="EQM17_1701_007">
+   <p name="firstEndpointLabel">OPT</p>
+   <p name="secondEndpointLabel">OPT</p>
+  </managedObject>
+  <managedObject className="com.company.srbts.mnl:CHANNEL" funName="TOPBTS-1/MNL-1/MNLENT-1/CELLMAPPING-1/LCELL-11/CHANNELGROUP-1/CHANNEL-1" operation="create" version="MNL17A_Macro_1701_006">
+   <p name="antlDN">TOPBTS-1/EQM-1/APEQM-1/RMOD-2/ANTL-7</p>
+   <p name="direction">RX</p>
+  </managedObject>
+ </cmData>
+</raml>

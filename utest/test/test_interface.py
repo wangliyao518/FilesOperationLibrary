@@ -31,21 +31,21 @@ class TestKissFilesInterfaceSCFC(unittest.TestCase):
         pass
 
     def test__setup_and_teardown_scfc(self):
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, 'SCFC_QT_FSIH.xml'))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, 'xml4test.xml'))
         self.xml_operator.teardown_xml()
 
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test.xml"))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test.xml"))
         self.xml_operator.teardown_xml()
 
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test1.xml"),
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test1.xml"),
                                     alias='test')
         self.xml_operator.teardown_xml(alias='test')
 
     def test__modify_scfc_text(self):
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test2.xml"))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test2.xml"))
 
         self.xml_operator.modify_xml_text('.//managedObject[@class="LNBTS"]/p[@name="actAutoAcBarring"]:true',
                                           './/managedObject[@class="LNBTS"]/list[@name="amRlcPBTab1"]/item/p[@name="dlPollByte"]:36kB')
@@ -71,8 +71,8 @@ class TestKissFilesInterfaceSCFC(unittest.TestCase):
         self.xml_operator.teardown_xml()
 
     def test__modify_scfc_attribute(self):
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test3.xml"))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test3.xml"))
 
         self.xml_operator.modify_xml_attribute('.//managedObject[@class="LNBTS"]:@version=TL15B',
                                                './/managedObject[@class="LNBTS"]/list[@name="amRlcPBTab1"]/item/p[1]:@name=NewName')
@@ -88,8 +88,8 @@ class TestKissFilesInterfaceSCFC(unittest.TestCase):
         self.xml_operator.teardown_xml()
 
     def test__add_scfc_node(self):
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test4.xml"))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test4.xml"))
 
         self.xml_operator.add_xml_node(
             './/managedObject[@class="LNBTS"]/list[@name="qciTab6"]/item:<p name="nbrUl">10240</p>',
@@ -106,8 +106,8 @@ class TestKissFilesInterfaceSCFC(unittest.TestCase):
         self.xml_operator.teardown_xml()
 
     def test__delete_scfc_node(self):
-        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "SCFC_QT_FSIH.xml"),
-                                    os.path.join(BASE_NAME, "SCFC_QT_FSIH_test5.xml"))
+        self.xml_operator.setup_xml(os.path.join(BASE_NAME, "xml4test.xml"),
+                                    os.path.join(BASE_NAME, "xml4test_test5.xml"))
 
         self.xml_operator.delete_xml_node(
             './/managedObject[@class="LNCEL"][@distName="0"]/list/item/p[@name="dFpucchF1b"]')

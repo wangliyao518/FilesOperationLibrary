@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<raml xmlns="raml21.xsd" version="2.1">
+<?xml version='1.0' encoding='UTF-8'?>
+<raml version="2.1" xmlns="raml21.xsd">
  <cmData type="plan">
   <header>
-   <log activeion="created" dateTime="2017-05-24T09:22:20"></log>
+   <log activeion="created" dateTime="2017-05-24T09:22:20" />
    <log activeion="modified" dateTime="0117-07-31T02:52:05">Run migration rules in eqm</log>
-   <log activeion="create" dateTime="2004-01-01T00:01:39"></log>
+   <log activeion="create" dateTime="2004-01-01T00:01:39" />
   </header>
   <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-1/dd-0" operation="create" version="17A_1701_07_1701_06">
    <p name="applyOutOfSyncState">extendedddOnly</p>
@@ -44,11 +44,6 @@
   <managedObject className="TEST:L2BTS" funName="TOPBTS-1/L2BTS-1" operation="create" version="17A_1701_07_1701_06">
    <p name="active1xCsfb">false</p>
    <p name="active8EpsBearers">false</p>
-    <item>
-     <p name="dlPollByte">25kB</p>
-     <p name="ueCategory">1</p>
-    </item>
-   </list>
    <list name="amRlcPBTab2">
     <item>
      <p name="dlPollByte">125kB</p>
@@ -245,7 +240,7 @@
   </managedObject>
   <managedObject className="TEST:LNCEL" funName="TOPBTS-1/L2BTS-1/LNCEL-2" operation="create" version="17A_1701_07_1701_06">
    <p name="a1TimeToTriggerDeactiveInterMeas">480ms</p>
-   <p name="a2RedirectQci1">enabled</p>>
+   <p name="a2RedirectQci1">enabled</p>&gt;
    <p name="csgType">openAccess</p>
    <list name="distPucch">
     <item>

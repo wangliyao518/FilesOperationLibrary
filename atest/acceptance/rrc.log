@@ -1,0 +1,2782 @@
+19:24:45.221 Session with id 1 was disconnected at Tue Jul 11 19:24:45 2017
+19:25:22.575 Session with id 1 was connected at Tue Jul 11 19:25:22 2017
+[session 1]: sim_trace uec=1 protocol=rrc on
+19:25:22.657 Session with id 1 was disconnected at Tue Jul 11 19:25:22 2017
+19:25:23.326 Session with id 1 was connected at Tue Jul 11 19:25:23 2017
+[session 1]: proxy_log SCH=debug GEN=debug
+19:25:23.418 Session with id 1 was disconnected at Tue Jul 11 19:25:23 2017
+19:25:23.953 Session with id 1 was connected at Tue Jul 11 19:25:23 2017
+[session 1]: sim_tti_trace DLL1L2CONTROL=on ULHARQTX=on DCCH=on MACRX=on MACTX=on ULSCHTX=on ULTRAUL=on PRACHTX=on DLHARQRX=on
+19:25:24.046 Session with id 1 was disconnected at Tue Jul 11 19:25:24 2017
+19:25:24.401 Session with id 1 was connected at Tue Jul 11 19:25:24 2017
+[session 1]: sim_tti_trace cell=1 format=trace_core_id
+0X1274,0X1282
+19:25:24.519 Session with id 1 was disconnected at Tue Jul 11 19:25:24 2017
+19:32:12.641 Session with id 1 was connected at Tue Jul 11 19:32:12 2017
+[session 1]: ue_mme_param mb_mdt_allowed=on id=1
+19:32:12.698 Session with id 1 was disconnected at Tue Jul 11 19:32:12 2017
+19:32:12.783 Session with id 1 was connected at Tue Jul 11 19:32:12 2017
+[session 1]: ue_mme_param mb_mdt_plmn_list_id=1 id=1
+19:32:12.868 Session with id 1 was disconnected at Tue Jul 11 19:32:12 2017
+19:32:12.967 Session with id 1 was connected at Tue Jul 11 19:32:12 2017
+[session 1]: ue_mme_param mb_mdt_allowed=on id=2
+19:32:13.048 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:13.149 Session with id 1 was connected at Tue Jul 11 19:32:13 2017
+[session 1]: ue_mme_param mb_mdt_plmn_list_id=1 id=2
+19:32:13.228 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:13.331 Session with id 1 was connected at Tue Jul 11 19:32:13 2017
+[session 1]: ue_mme_param mb_mdt_allowed=on id=3
+19:32:13.412 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:13.514 Session with id 1 was connected at Tue Jul 11 19:32:13 2017
+[session 1]: ue_mme_param mb_mdt_plmn_list_id=1 id=3
+19:32:13.553 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:13.655 Session with id 1 was connected at Tue Jul 11 19:32:13 2017
+[session 1]: sim_trace uec=1 protocol=rrc on
+19:32:13.736 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:13.837 Session with id 1 was connected at Tue Jul 11 19:32:13 2017
+[session 1]: proxy_log GEN=debug
+19:32:13.926 Session with id 1 was disconnected at Tue Jul 11 19:32:13 2017
+19:32:14.233 Session with id 1 was connected at Tue Jul 11 19:32:14 2017
+[session 1]: ue_change_location id=1 enb=1 cell=1
+UE1 cannot change location to ENB1.1 - already there
+No UEs applicable for the command
+19:32:14.312 Session with id 1 was disconnected at Tue Jul 11 19:32:14 2017
+19:32:14.414 Session with id 1 was connected at Tue Jul 11 19:32:14 2017
+[session 1]: ue_param id=1 supported_bands=38-41
+19:32:14.453 Session with id 1 was disconnected at Tue Jul 11 19:32:14 2017
+19:32:14.554 Session with id 1 was connected at Tue Jul 11 19:32:14 2017
+[session 1]: ue_param id=1 ue_eutra_capabilities=CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0
+19:32:14.637 Session with id 1 was disconnected at Tue Jul 11 19:32:14 2017
+19:32:14.738 Session with id 1 was connected at Tue Jul 11 19:32:14 2017
+[session 1]: ue_param id=1 
+UE1 Parameters
+================================================================================================================
+Parameter                       Value                                                                           
+----------------------------------------------------------------------------------------------------------------
+rsrp                            15:97                                                                           
+rsrq                            15:34                                                                           
+rscp                            25:90                                                                           
+ecno                            10:45                                                                           
+rssi                            50:50                                                                           
+reuse_security_context          true                                                                            
+nas_attach_attempts             3                                                                               
+rrc_attach_attempts             3                                                                               
+disconnecting_state_timeout     3000                                                                            
+reestablishing_state_timeout    3000                                                                            
+supported UTRA FDD bands        none                                                                            
+voice_domain_preference         lte_only                                                                        
+csfb_rat                        utran_geran                                                                     
+SRVCC to CDMA2000               enabled                                                                         
+SRVCC to UTRAN                  enabled                                                                         
+SRVCC to GERAN                  enabled                                                                         
+pilot_strength                  0                                                                               
+mdt_send_logged                 true                                                                            
+multi_ack_csi_reporting_r11     disabled                                                                        
+enable_blind_ho                 false                                                                           
+mfbi_prioritization             false                                                                           
+alt_tbs_index_supported         false                                                                           
+ue_id_h_enabled                 false                                                                           
+establishment_cause             no override                                                                     
+ue_eutra_capabilities           CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0  
+inter_freq_rstd_meas            false                                                                           
+pdcp_sn_extension               false                                                                           
+pdcp_sn_corruption              none                                                                            
+pdcp_sn_discard                 none                                                                            
+intra_freq_si_acquisition       false                                                                           
+inter_freq_si_acquisition       false                                                                           
+downlink_LAA_supported          false                                                                           
+utran_si_acquisition            false                                                                           
+supported_bands:halfDuplex      38:false 39:false 40:false 41:false                                             
+preamble_override               none                                                                            
+interFreqNeedForGaps            false for all supported bands                                                   
+UTRA FDD interRAT-NeedForGaps   true for all supported bands                                                    
+multi_cluster_pusch_within_cc   false                                                                           
+non_contiguous_ul_ra_within_cc  false for all supported bands                                                   
+son_rach_report_capability      true                                                                            
+son_rach_report_value           1:false                                                                         
+ca_supported_bands              none                                                                            
+multi_ta                        false for all supported band combinations                                       
+tdd_fdd_capcellduplex           0                                                                               
+CIoT Control Plane              not supported                                                                   
+CIoT User Plane                 not supported                                                                   
+CIoT EMM-Registered w/o PDN     not supported                                                                   
+================================================================================================================
+
+19:32:14.821 Session with id 1 was disconnected at Tue Jul 11 19:32:14 2017
+19:32:14.922 Session with id 1 was connected at Tue Jul 11 19:32:14 2017
+[session 1]: ue_param id=1 csfb_rat=utran_geran voice_domain_preference=lte_preferred
+19:32:15.005 Session with id 1 was disconnected at Tue Jul 11 19:32:15 2017
+19:32:15.106 Session with id 1 was connected at Tue Jul 11 19:32:15 2017
+[session 1]: ue_attach id=1 selected_plmn=262:03
+19:32:15.205 19:32:15.205 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-CCCH eNodeB
+value UL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionRequest : 
+  {
+    criticalExtensions rrcConnectionRequest-r8 : 
+    {
+      ue-Identity randomValue : '01010101 01000101 00000000 00000001 010 ...'B,
+      establishmentCause mo-Signalling,
+      spare '0'B
+    }
+  }
+}
+
+19:32:15.239 19:32:15.239 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-CCCH
+value DL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetup : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetup-r8 : 
+    {
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 1,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            maxHARQ-Tx n5,
+            periodicBSR-Timer infinity,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240
+        },
+        physicalConfigDedicated 
+        {
+          pdsch-ConfigDedicated 
+          {
+            p-a dB0
+          },
+          pucch-ConfigDedicated 
+          {
+            ackNackRepetition release : NULL,
+            tdd-AckNackFeedbackMode bundling
+          },
+          pusch-ConfigDedicated 
+          {
+            betaOffset-ACK-Index 2,
+            betaOffset-RI-Index 2,
+            betaOffset-CQI-Index 2
+          },
+          uplinkPowerControlDedicated 
+          {
+            p0-UE-PUSCH 0,
+            deltaMCS-Enabled en0,
+            accumulationEnabled TRUE,
+            p0-UE-PUCCH 0,
+            pSRS-Offset 7
+          },
+          cqi-ReportConfig 
+          {
+            cqi-ReportModeAperiodic rm30,
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic setup : 
+            {
+              cqi-PUCCH-ResourceIndex 0,
+              cqi-pmi-ConfigIndex 23,
+              cqi-FormatIndicatorPeriodic widebandCQI : NULL,
+              simultaneousAckNackAndCQI FALSE
+            }
+          },
+          schedulingRequestConfig setup : 
+          {
+            sr-PUCCH-ResourceIndex 0,
+            sr-ConfigIndex 17,
+            dsr-TransMax n64
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:15.240 19:32:15.240 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetupComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetupComplete-r8 : 
+    {
+      selectedPLMN-Identity 1,
+      dedicatedInfoNAS '0741720829449011111101100680800000 ...'H
+    }
+  }
+}
+
+19:32:15.258 19:32:15.258 [39;49mINF[0m: MME-1: UE1: eNB=1, ENB_UE_S1AP_ID=1. S1:INITIAL_UE_MESSAGE[NAS:ATTACH_REQUEST]. IMSI=244091111111001, TAI:262:03:33, Open Cell
+19:32:15.266 19:32:15.266 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '07520086A8901B85A4DE558605406BF234 ...'H
+    }
+  }
+}
+
+19:32:15.269 19:32:15.269 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '075308A768CDCCA2AC3C79'H
+    }
+  }
+}
+
+19:32:15.286 19:32:15.286 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '370000000000075D0000028080'H
+    }
+  }
+}
+
+19:32:15.287 19:32:15.287 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '470000000000075E'H
+    }
+  }
+}
+
+19:32:15.305 19:32:15.305 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : securityModeCommand : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : securityModeCommand-r8 : 
+    {
+      securityConfigSMC 
+      {
+        securityAlgorithmConfig 
+        {
+          cipheringAlgorithm eea0,
+          integrityProtAlgorithm spare1
+        }
+      }
+    }
+  }
+}
+
+19:32:15.305 19:32:15.305 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : securityModeComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions securityModeComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:15.306 19:32:15.306 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityEnquiry : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityEnquiry-r8 : 
+    {
+      ue-CapabilityRequest 
+      {
+        eutra
+      }
+    }
+  }
+}
+
+19:32:15.306 19:32:15.306 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> E-UTRA capability
+value UE-EUTRA-Capability ::= 
+{
+  accessStratumRelease rel11,
+  ue-Category 4,
+  pdcp-Parameters 
+  {
+    supportedROHC-Profiles 
+    {
+      profile0x0001 TRUE,
+      profile0x0002 TRUE,
+      profile0x0003 TRUE,
+      profile0x0004 TRUE,
+      profile0x0006 TRUE,
+      profile0x0101 TRUE,
+      profile0x0102 TRUE,
+      profile0x0103 TRUE,
+      profile0x0104 TRUE
+    }
+  },
+  phyLayerParameters 
+  {
+    ue-TxAntennaSelectionSupported FALSE,
+    ue-SpecificRefSigsSupported TRUE
+  },
+  rf-Parameters 
+  {
+    supportedBandListEUTRA 
+    {
+      {
+        bandEUTRA 39,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 38,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 40,
+        halfDuplex FALSE
+      },
+      {
+        bandEUTRA 41,
+        halfDuplex FALSE
+      }
+    }
+  },
+  measParameters 
+  {
+    bandListEUTRA 
+    {
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      },
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      }
+    }
+  },
+  featureGroupIndicators '11111111 11111111 11111111 11111111'B,
+  interRAT-Parameters 
+  {
+    utraFDD 
+    {
+      supportedBandListUTRA-FDD 
+      {
+        bandIII,
+        bandI,
+        bandI,
+        bandIV
+      }
+    },
+    utraTDD128 
+    {
+      supportedBandListUTRA-TDD128 
+      {
+        a,
+        b
+      }
+    },
+    geran 
+    {
+      supportedBandListGERAN 
+      {
+        gsm1800,
+        gsm1900
+      },
+      interRAT-PS-HO-ToGERAN FALSE
+    },
+    cdma2000-1xRTT 
+    {
+      supportedBandList1XRTT 
+      {
+        bc0,
+        bc1
+      },
+      tx-Config1XRTT single,
+      rx-Config1XRTT single
+    }
+  },
+  nonCriticalExtension 
+  {
+    phyLayerParameters-v920 
+    {
+      enhancedDualLayerTDD-r9 supported
+    },
+    interRAT-ParametersGERAN-v920 
+    {
+    },
+    interRAT-ParametersCDMA2000-v920 
+    {
+      e-CSFB-1XRTT-r9 supported
+    },
+    csg-ProximityIndicationParameters-r9 
+    {
+    },
+    neighCellSI-AcquisitionParameters-r9 
+    {
+    },
+    son-Parameters-r9 
+    {
+    },
+    nonCriticalExtension 
+    {
+      lateNonCriticalExtension 
+        CONTAINING
+        {
+          featureGroupIndRel9Add-r9 '11111111 11111111 11111111 11111111'B,
+          nonCriticalExtension 
+          {
+          }
+        },
+      nonCriticalExtension 
+      {
+        featureGroupIndRel10-r10 '11111111 11111111 11111111 11111111'B,
+        ue-BasedNetwPerfMeasParameters-r10 
+        {
+          loggedMeasurementsIdle-r10 supported,
+          standaloneGNSS-Location-r10 supported
+        }
+      }
+    }
+  }
+}
+
+19:32:15.306 19:32:15.306 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityInformation : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityInformation-r8 : 
+    {
+      ue-CapabilityRAT-ContainerList 
+      {
+        {
+          rat-Type eutra,
+          ueCapabilityRAT-Container 'CD9FF439B2E750040E07FFFFFFFFCA1880 ...'H
+        }
+      }
+    }
+  }
+}
+
+19:32:15.334 19:32:15.334 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfiguration : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions c1 : rrcConnectionReconfiguration-r8 : 
+    {
+      measConfig 
+      {
+        measObjectToAddModList 
+        {
+          {
+            measObjectId 1,
+            measObject measObjectEUTRA : 
+            {
+              carrierFreq 38000,
+              allowedMeasBandwidth mbw50,
+              presenceAntennaPort1 FALSE,
+              neighCellConfig '00'B,
+              blackCellsToAddModList 
+              {
+                {
+                  cellIndex 1,
+                  physCellIdRange 
+                  {
+                    start 499,
+                    range n4
+                  }
+                }
+              }
+            }
+          }
+        },
+        reportConfigToAddModList 
+        {
+          {
+            reportConfigId 1,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA3 : 
+                {
+                  a3-Offset 6,
+                  reportOnLeave FALSE
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms1024,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 2,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA5 : 
+                {
+                  a5-Threshold1 threshold-RSRP : 30,
+                  a5-Threshold2 threshold-RSRP : 31
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms240,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 3,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 1
+                },
+                hysteresis 0,
+                timeToTrigger ms256
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          },
+          {
+            reportConfigId 4,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 52
+                },
+                hysteresis 0,
+                timeToTrigger ms1024
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          }
+        },
+        measIdToAddModList 
+        {
+          {
+            measId 1,
+            measObjectId 1,
+            reportConfigId 1
+          },
+          {
+            measId 2,
+            measObjectId 1,
+            reportConfigId 2
+          },
+          {
+            measId 4,
+            measObjectId 1,
+            reportConfigId 3
+          },
+          {
+            measId 7,
+            measObjectId 1,
+            reportConfigId 4
+          }
+        },
+        quantityConfig 
+        {
+          quantityConfigEUTRA 
+          {
+          }
+        },
+        measGapConfig release : NULL,
+        s-Measure 90,
+        speedStatePars setup : 
+        {
+          mobilityStateParameters 
+          {
+            t-Evaluation s180,
+            t-HystNormal s180,
+            n-CellChangeMedium 8,
+            n-CellChangeHigh 8
+          },
+          timeToTrigger-SF 
+          {
+            sf-Medium oDot5,
+            sf-High oDot5
+          }
+        }
+      },
+      dedicatedInfoNASList 
+      {
+        '27000000000107420249060062F2300021 ...'H
+      },
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 2,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        drb-ToAddModList 
+        {
+          {
+            eps-BearerIdentity 5,
+            drb-Identity 4,
+            pdcp-Config 
+            {
+              discardTimer ms750,
+              rlc-AM 
+              {
+                statusReportRequired TRUE
+              },
+              headerCompression notUsed : NULL
+            },
+            rlc-Config am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms120,
+                pollPDU p32,
+                pollByte kB750,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms10
+              }
+            },
+            logicalChannelIdentity 3,
+            logicalChannelConfig 
+            {
+              ul-SpecificParameters 
+              {
+                priority 9,
+                prioritisedBitRate infinity,
+                bucketSizeDuration ms100,
+                logicalChannelGroup 0
+              }
+            }
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            periodicBSR-Timer sf10,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240,
+          phr-Config setup : 
+          {
+            periodicPHR-Timer sf200,
+            prohibitPHR-Timer sf100,
+            dl-PathlossChange dB3
+          }
+        },
+        physicalConfigDedicated 
+        {
+          antennaInfo-r10 explicitValue-r10 : 
+          {
+            transmissionMode-r10 tm3,
+            codebookSubsetRestriction-r10 '11'B,
+            ue-TransmitAntennaSelection release : NULL
+          },
+          cqi-ReportConfig-r10 
+          {
+            cqi-ReportAperiodic-r10 setup : 
+            {
+              cqi-ReportModeAperiodic-r10 rm30
+            },
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic-r10 setup : 
+            {
+              cqi-PUCCH-ResourceIndex-r10 0,
+              cqi-pmi-ConfigIndex 23,
+              cqi-FormatIndicatorPeriodic-r10 widebandCQI-r10 : 
+              {
+              },
+              ri-ConfigIndex 161,
+              simultaneousAckNackAndCQI TRUE
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:15.335 19:32:15.335 [39;49mINF[0m: UEC-1: UE1: eNB has changed Transmission Mode to TM3
+19:32:15.335 19:32:15.335 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfigurationComplete : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions rrcConnectionReconfigurationComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:15.337 19:32:15.337 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '270000000001074300035200C2'H
+    }
+  }
+}
+
+19:32:15.337 19:32:15.337 [39;49mINF[0m: UEC-1: UE1: UE performed COMBINED_EPS_IMSI_ATTACH (crnti: 39897 = 0x9BD9)
+19:32:15.346 19:32:15.346 [39;49mINF[0m: MME-1: UE1: === UE IS ACTIVE (eNB=1, TAI:262:03:33, Open Cell, SGW=1, Attach type: COMBINED_EPS_IMSI_ATTACH) ===
+19:32:15.349 Session with id 1 was disconnected at Tue Jul 11 19:32:15 2017
+19:32:15.350 19:32:15.350 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : loggedMeasurementConfiguration-r10 : 
+  {
+    criticalExtensions c1 : loggedMeasurementConfiguration-r10 : 
+    {
+      traceReference-r10 
+      {
+        plmn-Identity-r10 
+        {
+          mcc 
+          {
+            2,
+            6,
+            2
+          },
+          mnc 
+          {
+            0,
+            3
+          }
+        },
+        traceId-r10 '00000A'H
+      },
+      traceRecordingSessionRef-r10 '0000'H,
+      tce-Id-r10 '01'H,
+      absoluteTimeInfo-r10 '00010111 00000111 00010001 00010111 001 ...'B,
+      areaConfiguration-r10 trackingAreaCodeList-r10 : 
+      {
+        '00000000 00100001'B
+      },
+      loggingDuration-r10 min10,
+      loggingInterval-r10 ms20480,
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          plmn-IdentityList-r11 
+          {
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                3
+              }
+            },
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                4
+              }
+            }
+          },
+          areaConfiguration-v1130 
+          {
+            trackingAreaCodeList-v1130 
+            {
+              plmn-Identity-perTAC-List-r11 
+              {
+                {
+                  mcc 
+                  {
+                    0,
+                    0,
+                    3
+                  },
+                  mnc 
+                  {
+                    2,
+                    6,
+                    2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:15.453 Session with id 1 was connected at Tue Jul 11 19:32:15 2017
+[session 1]: ue_change_location id=2 enb=1 cell=1
+UE2 cannot change location to ENB1.1 - already there
+No UEs applicable for the command
+19:32:15.532 Session with id 1 was disconnected at Tue Jul 11 19:32:15 2017
+19:32:15.634 Session with id 1 was connected at Tue Jul 11 19:32:15 2017
+[session 1]: ue_param id=2 supported_bands=38-41
+19:32:15.717 Session with id 1 was disconnected at Tue Jul 11 19:32:15 2017
+19:32:15.818 Session with id 1 was connected at Tue Jul 11 19:32:15 2017
+[session 1]: ue_param id=2 ue_eutra_capabilities=CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0
+19:32:15.901 Session with id 1 was disconnected at Tue Jul 11 19:32:15 2017
+19:32:16.002 Session with id 1 was connected at Tue Jul 11 19:32:16 2017
+[session 1]: ue_param id=2 
+UE2 Parameters
+================================================================================================================
+Parameter                       Value                                                                           
+----------------------------------------------------------------------------------------------------------------
+rsrp                            15:97                                                                           
+rsrq                            15:34                                                                           
+rscp                            25:90                                                                           
+ecno                            10:45                                                                           
+rssi                            50:50                                                                           
+reuse_security_context          true                                                                            
+nas_attach_attempts             3                                                                               
+rrc_attach_attempts             3                                                                               
+disconnecting_state_timeout     3000                                                                            
+reestablishing_state_timeout    3000                                                                            
+supported UTRA FDD bands        none                                                                            
+voice_domain_preference         lte_only                                                                        
+csfb_rat                        utran_geran                                                                     
+SRVCC to CDMA2000               enabled                                                                         
+SRVCC to UTRAN                  enabled                                                                         
+SRVCC to GERAN                  enabled                                                                         
+pilot_strength                  0                                                                               
+mdt_send_logged                 true                                                                            
+multi_ack_csi_reporting_r11     disabled                                                                        
+enable_blind_ho                 false                                                                           
+mfbi_prioritization             false                                                                           
+alt_tbs_index_supported         false                                                                           
+ue_id_h_enabled                 false                                                                           
+establishment_cause             no override                                                                     
+ue_eutra_capabilities           CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0  
+inter_freq_rstd_meas            false                                                                           
+pdcp_sn_extension               false                                                                           
+pdcp_sn_corruption              none                                                                            
+pdcp_sn_discard                 none                                                                            
+intra_freq_si_acquisition       false                                                                           
+inter_freq_si_acquisition       false                                                                           
+downlink_LAA_supported          false                                                                           
+utran_si_acquisition            false                                                                           
+supported_bands:halfDuplex      38:false 39:false 40:false 41:false                                             
+preamble_override               none                                                                            
+interFreqNeedForGaps            false for all supported bands                                                   
+UTRA FDD interRAT-NeedForGaps   true for all supported bands                                                    
+multi_cluster_pusch_within_cc   false                                                                           
+non_contiguous_ul_ra_within_cc  false for all supported bands                                                   
+son_rach_report_capability      true                                                                            
+son_rach_report_value           1:false                                                                         
+ca_supported_bands              none                                                                            
+multi_ta                        false for all supported band combinations                                       
+tdd_fdd_capcellduplex           0                                                                               
+CIoT Control Plane              not supported                                                                   
+CIoT User Plane                 not supported                                                                   
+CIoT EMM-Registered w/o PDN     not supported                                                                   
+================================================================================================================
+
+19:32:16.081 Session with id 1 was disconnected at Tue Jul 11 19:32:16 2017
+19:32:16.183 Session with id 1 was connected at Tue Jul 11 19:32:16 2017
+[session 1]: ue_param id=2 csfb_rat=utran_geran voice_domain_preference=lte_preferred
+19:32:16.265 Session with id 1 was disconnected at Tue Jul 11 19:32:16 2017
+19:32:16.366 Session with id 1 was connected at Tue Jul 11 19:32:16 2017
+[session 1]: ue_attach id=2 selected_plmn=262:03
+19:32:16.488 19:32:16.488 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-CCCH eNodeB
+value UL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionRequest : 
+  {
+    criticalExtensions rrcConnectionRequest-r8 : 
+    {
+      ue-Identity randomValue : '01010101 01000101 00000000 00000010 010 ...'B,
+      establishmentCause mo-Signalling,
+      spare '0'B
+    }
+  }
+}
+
+19:32:16.519 19:32:16.519 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-CCCH
+value DL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetup : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetup-r8 : 
+    {
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 1,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            maxHARQ-Tx n5,
+            periodicBSR-Timer infinity,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240
+        },
+        physicalConfigDedicated 
+        {
+          pdsch-ConfigDedicated 
+          {
+            p-a dB0
+          },
+          pucch-ConfigDedicated 
+          {
+            ackNackRepetition release : NULL,
+            tdd-AckNackFeedbackMode bundling
+          },
+          pusch-ConfigDedicated 
+          {
+            betaOffset-ACK-Index 2,
+            betaOffset-RI-Index 2,
+            betaOffset-CQI-Index 2
+          },
+          uplinkPowerControlDedicated 
+          {
+            p0-UE-PUSCH 0,
+            deltaMCS-Enabled en0,
+            accumulationEnabled TRUE,
+            p0-UE-PUCCH 0,
+            pSRS-Offset 7
+          },
+          cqi-ReportConfig 
+          {
+            cqi-ReportModeAperiodic rm30,
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic setup : 
+            {
+              cqi-PUCCH-ResourceIndex 0,
+              cqi-pmi-ConfigIndex 24,
+              cqi-FormatIndicatorPeriodic widebandCQI : NULL,
+              simultaneousAckNackAndCQI FALSE
+            }
+          },
+          schedulingRequestConfig setup : 
+          {
+            sr-PUCCH-ResourceIndex 0,
+            sr-ConfigIndex 18,
+            dsr-TransMax n64
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:16.519 19:32:16.519 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetupComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetupComplete-r8 : 
+    {
+      selectedPLMN-Identity 1,
+      dedicatedInfoNAS '0741720829449011111101200680800000 ...'H
+    }
+  }
+}
+
+19:32:16.547 19:32:16.547 [39;49mINF[0m: MME-1: UE2: eNB=1, ENB_UE_S1AP_ID=2. S1:INITIAL_UE_MESSAGE[NAS:ATTACH_REQUEST]. IMSI=244091111111002, TAI:262:03:33, Open Cell
+19:32:16.554 19:32:16.554 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '0752001AE41D54EB54CD0A5EBA045FB72F ...'H
+    }
+  }
+}
+
+19:32:16.555 19:32:16.555 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '07530890A7453358B606AC'H
+    }
+  }
+}
+
+19:32:16.571 19:32:16.571 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '370000000000075D0000028080'H
+    }
+  }
+}
+
+19:32:16.572 19:32:16.572 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '470000000000075E'H
+    }
+  }
+}
+
+19:32:16.589 19:32:16.589 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : securityModeCommand : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : securityModeCommand-r8 : 
+    {
+      securityConfigSMC 
+      {
+        securityAlgorithmConfig 
+        {
+          cipheringAlgorithm eea0,
+          integrityProtAlgorithm spare1
+        }
+      }
+    }
+  }
+}
+
+19:32:16.589 19:32:16.589 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : securityModeComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions securityModeComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:16.590 19:32:16.590 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityEnquiry : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityEnquiry-r8 : 
+    {
+      ue-CapabilityRequest 
+      {
+        eutra
+      }
+    }
+  }
+}
+
+19:32:16.590 19:32:16.590 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> E-UTRA capability
+value UE-EUTRA-Capability ::= 
+{
+  accessStratumRelease rel11,
+  ue-Category 4,
+  pdcp-Parameters 
+  {
+    supportedROHC-Profiles 
+    {
+      profile0x0001 TRUE,
+      profile0x0002 TRUE,
+      profile0x0003 TRUE,
+      profile0x0004 TRUE,
+      profile0x0006 TRUE,
+      profile0x0101 TRUE,
+      profile0x0102 TRUE,
+      profile0x0103 TRUE,
+      profile0x0104 TRUE
+    }
+  },
+  phyLayerParameters 
+  {
+    ue-TxAntennaSelectionSupported FALSE,
+    ue-SpecificRefSigsSupported TRUE
+  },
+  rf-Parameters 
+  {
+    supportedBandListEUTRA 
+    {
+      {
+        bandEUTRA 39,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 38,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 40,
+        halfDuplex FALSE
+      },
+      {
+        bandEUTRA 41,
+        halfDuplex FALSE
+      }
+    }
+  },
+  measParameters 
+  {
+    bandListEUTRA 
+    {
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      },
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      }
+    }
+  },
+  featureGroupIndicators '11111111 11111111 11111111 11111111'B,
+  interRAT-Parameters 
+  {
+    utraFDD 
+    {
+      supportedBandListUTRA-FDD 
+      {
+        bandIII,
+        bandI,
+        bandI,
+        bandIV
+      }
+    },
+    utraTDD128 
+    {
+      supportedBandListUTRA-TDD128 
+      {
+        a,
+        b
+      }
+    },
+    geran 
+    {
+      supportedBandListGERAN 
+      {
+        gsm1800,
+        gsm1900
+      },
+      interRAT-PS-HO-ToGERAN FALSE
+    },
+    cdma2000-1xRTT 
+    {
+      supportedBandList1XRTT 
+      {
+        bc0,
+        bc1
+      },
+      tx-Config1XRTT single,
+      rx-Config1XRTT single
+    }
+  },
+  nonCriticalExtension 
+  {
+    phyLayerParameters-v920 
+    {
+      enhancedDualLayerTDD-r9 supported
+    },
+    interRAT-ParametersGERAN-v920 
+    {
+    },
+    interRAT-ParametersCDMA2000-v920 
+    {
+      e-CSFB-1XRTT-r9 supported
+    },
+    csg-ProximityIndicationParameters-r9 
+    {
+    },
+    neighCellSI-AcquisitionParameters-r9 
+    {
+    },
+    son-Parameters-r9 
+    {
+    },
+    nonCriticalExtension 
+    {
+      lateNonCriticalExtension 
+        CONTAINING
+        {
+          featureGroupIndRel9Add-r9 '11111111 11111111 11111111 11111111'B,
+          nonCriticalExtension 
+          {
+          }
+        },
+      nonCriticalExtension 
+      {
+        featureGroupIndRel10-r10 '11111111 11111111 11111111 11111111'B,
+        ue-BasedNetwPerfMeasParameters-r10 
+        {
+          loggedMeasurementsIdle-r10 supported,
+          standaloneGNSS-Location-r10 supported
+        }
+      }
+    }
+  }
+}
+
+19:32:16.590 19:32:16.590 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityInformation : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityInformation-r8 : 
+    {
+      ue-CapabilityRAT-ContainerList 
+      {
+        {
+          rat-Type eutra,
+          ueCapabilityRAT-Container 'CD9FF439B2E750040E07FFFFFFFFCA1880 ...'H
+        }
+      }
+    }
+  }
+}
+
+19:32:16.615 19:32:16.615 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfiguration : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions c1 : rrcConnectionReconfiguration-r8 : 
+    {
+      measConfig 
+      {
+        measObjectToAddModList 
+        {
+          {
+            measObjectId 1,
+            measObject measObjectEUTRA : 
+            {
+              carrierFreq 38000,
+              allowedMeasBandwidth mbw50,
+              presenceAntennaPort1 FALSE,
+              neighCellConfig '00'B,
+              blackCellsToAddModList 
+              {
+                {
+                  cellIndex 1,
+                  physCellIdRange 
+                  {
+                    start 499,
+                    range n4
+                  }
+                }
+              }
+            }
+          }
+        },
+        reportConfigToAddModList 
+        {
+          {
+            reportConfigId 1,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA3 : 
+                {
+                  a3-Offset 6,
+                  reportOnLeave FALSE
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms1024,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 2,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA5 : 
+                {
+                  a5-Threshold1 threshold-RSRP : 30,
+                  a5-Threshold2 threshold-RSRP : 31
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms240,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 3,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 1
+                },
+                hysteresis 0,
+                timeToTrigger ms256
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          },
+          {
+            reportConfigId 4,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 52
+                },
+                hysteresis 0,
+                timeToTrigger ms1024
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          }
+        },
+        measIdToAddModList 
+        {
+          {
+            measId 1,
+            measObjectId 1,
+            reportConfigId 1
+          },
+          {
+            measId 2,
+            measObjectId 1,
+            reportConfigId 2
+          },
+          {
+            measId 4,
+            measObjectId 1,
+            reportConfigId 3
+          },
+          {
+            measId 7,
+            measObjectId 1,
+            reportConfigId 4
+          }
+        },
+        quantityConfig 
+        {
+          quantityConfigEUTRA 
+          {
+          }
+        },
+        measGapConfig release : NULL,
+        s-Measure 90,
+        speedStatePars setup : 
+        {
+          mobilityStateParameters 
+          {
+            t-Evaluation s180,
+            t-HystNormal s180,
+            n-CellChangeMedium 8,
+            n-CellChangeHigh 8
+          },
+          timeToTrigger-SF 
+          {
+            sf-Medium oDot5,
+            sf-High oDot5
+          }
+        }
+      },
+      dedicatedInfoNASList 
+      {
+        '27000000000107420249060062F2300021 ...'H
+      },
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 2,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        drb-ToAddModList 
+        {
+          {
+            eps-BearerIdentity 5,
+            drb-Identity 4,
+            pdcp-Config 
+            {
+              discardTimer ms750,
+              rlc-AM 
+              {
+                statusReportRequired TRUE
+              },
+              headerCompression notUsed : NULL
+            },
+            rlc-Config am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms120,
+                pollPDU p32,
+                pollByte kB750,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms10
+              }
+            },
+            logicalChannelIdentity 3,
+            logicalChannelConfig 
+            {
+              ul-SpecificParameters 
+              {
+                priority 9,
+                prioritisedBitRate infinity,
+                bucketSizeDuration ms100,
+                logicalChannelGroup 0
+              }
+            }
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            periodicBSR-Timer sf10,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240,
+          phr-Config setup : 
+          {
+            periodicPHR-Timer sf200,
+            prohibitPHR-Timer sf100,
+            dl-PathlossChange dB3
+          }
+        },
+        physicalConfigDedicated 
+        {
+          antennaInfo-r10 explicitValue-r10 : 
+          {
+            transmissionMode-r10 tm3,
+            codebookSubsetRestriction-r10 '11'B,
+            ue-TransmitAntennaSelection release : NULL
+          },
+          cqi-ReportConfig-r10 
+          {
+            cqi-ReportAperiodic-r10 setup : 
+            {
+              cqi-ReportModeAperiodic-r10 rm30
+            },
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic-r10 setup : 
+            {
+              cqi-PUCCH-ResourceIndex-r10 0,
+              cqi-pmi-ConfigIndex 24,
+              cqi-FormatIndicatorPeriodic-r10 widebandCQI-r10 : 
+              {
+              },
+              ri-ConfigIndex 161,
+              simultaneousAckNackAndCQI TRUE
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:16.616 19:32:16.616 [39;49mINF[0m: UEC-1: UE2: eNB has changed Transmission Mode to TM3
+19:32:16.616 19:32:16.616 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfigurationComplete : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions rrcConnectionReconfigurationComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:16.618 19:32:16.618 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '270000000001074300035200C2'H
+    }
+  }
+}
+
+19:32:16.618 19:32:16.618 [39;49mINF[0m: UEC-1: UE2: UE performed COMBINED_EPS_IMSI_ATTACH (crnti: 14248 = 0x37A8)
+19:32:16.629 19:32:16.629 [39;49mINF[0m: MME-1: UE2: === UE IS ACTIVE (eNB=1, TAI:262:03:33, Open Cell, SGW=1, Attach type: COMBINED_EPS_IMSI_ATTACH) ===
+19:32:16.630 19:32:16.630 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : loggedMeasurementConfiguration-r10 : 
+  {
+    criticalExtensions c1 : loggedMeasurementConfiguration-r10 : 
+    {
+      traceReference-r10 
+      {
+        plmn-Identity-r10 
+        {
+          mcc 
+          {
+            2,
+            6,
+            2
+          },
+          mnc 
+          {
+            0,
+            3
+          }
+        },
+        traceId-r10 '00000A'H
+      },
+      traceRecordingSessionRef-r10 '0001'H,
+      tce-Id-r10 '01'H,
+      absoluteTimeInfo-r10 '00010111 00000111 00010001 00010111 001 ...'B,
+      areaConfiguration-r10 trackingAreaCodeList-r10 : 
+      {
+        '00000000 00100001'B
+      },
+      loggingDuration-r10 min10,
+      loggingInterval-r10 ms20480,
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          plmn-IdentityList-r11 
+          {
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                3
+              }
+            },
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                4
+              }
+            }
+          },
+          areaConfiguration-v1130 
+          {
+            trackingAreaCodeList-v1130 
+            {
+              plmn-Identity-perTAC-List-r11 
+              {
+                {
+                  mcc 
+                  {
+                    0,
+                    0,
+                    3
+                  },
+                  mnc 
+                  {
+                    2,
+                    6,
+                    2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:16.630 Session with id 1 was disconnected at Tue Jul 11 19:32:16 2017
+19:32:16.733 Session with id 1 was connected at Tue Jul 11 19:32:16 2017
+[session 1]: ue_change_location id=3 enb=1 cell=1
+UE3 cannot change location to ENB1.1 - already there
+No UEs applicable for the command
+19:32:16.772 Session with id 1 was disconnected at Tue Jul 11 19:32:16 2017
+19:32:16.874 Session with id 1 was connected at Tue Jul 11 19:32:16 2017
+[session 1]: ue_param id=3 supported_bands=38-41
+19:32:16.953 Session with id 1 was disconnected at Tue Jul 11 19:32:16 2017
+19:32:17.054 Session with id 1 was connected at Tue Jul 11 19:32:17 2017
+[session 1]: ue_param id=3 ue_eutra_capabilities=CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0
+19:32:17.137 Session with id 1 was disconnected at Tue Jul 11 19:32:17 2017
+19:32:17.238 Session with id 1 was connected at Tue Jul 11 19:32:17 2017
+[session 1]: ue_param id=3 
+UE3 Parameters
+================================================================================================================
+Parameter                       Value                                                                           
+----------------------------------------------------------------------------------------------------------------
+rsrp                            15:97                                                                           
+rsrq                            15:34                                                                           
+rscp                            25:90                                                                           
+ecno                            10:45                                                                           
+rssi                            50:50                                                                           
+reuse_security_context          true                                                                            
+nas_attach_attempts             3                                                                               
+rrc_attach_attempts             3                                                                               
+disconnecting_state_timeout     3000                                                                            
+reestablishing_state_timeout    3000                                                                            
+supported UTRA FDD bands        none                                                                            
+voice_domain_preference         lte_only                                                                        
+csfb_rat                        utran_geran                                                                     
+SRVCC to CDMA2000               enabled                                                                         
+SRVCC to UTRAN                  enabled                                                                         
+SRVCC to GERAN                  enabled                                                                         
+pilot_strength                  0                                                                               
+mdt_send_logged                 true                                                                            
+multi_ack_csi_reporting_r11     disabled                                                                        
+enable_blind_ho                 false                                                                           
+mfbi_prioritization             false                                                                           
+alt_tbs_index_supported         false                                                                           
+ue_id_h_enabled                 false                                                                           
+establishment_cause             no override                                                                     
+ue_eutra_capabilities           CD9FF439B2E750040E07FFFFFFFFCA18800182008295020022A0060B3FFFFFFFE014FFFFFFFFC0  
+inter_freq_rstd_meas            false                                                                           
+pdcp_sn_extension               false                                                                           
+pdcp_sn_corruption              none                                                                            
+pdcp_sn_discard                 none                                                                            
+intra_freq_si_acquisition       false                                                                           
+inter_freq_si_acquisition       false                                                                           
+downlink_LAA_supported          false                                                                           
+utran_si_acquisition            false                                                                           
+supported_bands:halfDuplex      38:false 39:false 40:false 41:false                                             
+preamble_override               none                                                                            
+interFreqNeedForGaps            false for all supported bands                                                   
+UTRA FDD interRAT-NeedForGaps   true for all supported bands                                                    
+multi_cluster_pusch_within_cc   false                                                                           
+non_contiguous_ul_ra_within_cc  false for all supported bands                                                   
+son_rach_report_capability      true                                                                            
+son_rach_report_value           1:false                                                                         
+ca_supported_bands              none                                                                            
+multi_ta                        false for all supported band combinations                                       
+tdd_fdd_capcellduplex           0                                                                               
+CIoT Control Plane              not supported                                                                   
+CIoT User Plane                 not supported                                                                   
+CIoT EMM-Registered w/o PDN     not supported                                                                   
+================================================================================================================
+
+19:32:17.321 Session with id 1 was disconnected at Tue Jul 11 19:32:17 2017
+19:32:17.422 Session with id 1 was connected at Tue Jul 11 19:32:17 2017
+[session 1]: ue_param id=3 csfb_rat=utran_geran voice_domain_preference=lte_preferred
+19:32:17.504 Session with id 1 was disconnected at Tue Jul 11 19:32:17 2017
+19:32:17.606 Session with id 1 was connected at Tue Jul 11 19:32:17 2017
+[session 1]: ue_attach id=3 selected_plmn=262:03
+19:32:17.684 19:32:17.684 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-CCCH eNodeB
+value UL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionRequest : 
+  {
+    criticalExtensions rrcConnectionRequest-r8 : 
+    {
+      ue-Identity randomValue : '01010101 01000101 00000000 00000011 010 ...'B,
+      establishmentCause mo-Signalling,
+      spare '0'B
+    }
+  }
+}
+
+19:32:17.719 19:32:17.719 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-CCCH
+value DL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetup : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetup-r8 : 
+    {
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 1,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            maxHARQ-Tx n5,
+            periodicBSR-Timer infinity,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240
+        },
+        physicalConfigDedicated 
+        {
+          pdsch-ConfigDedicated 
+          {
+            p-a dB0
+          },
+          pucch-ConfigDedicated 
+          {
+            ackNackRepetition release : NULL,
+            tdd-AckNackFeedbackMode bundling
+          },
+          pusch-ConfigDedicated 
+          {
+            betaOffset-ACK-Index 2,
+            betaOffset-RI-Index 2,
+            betaOffset-CQI-Index 2
+          },
+          uplinkPowerControlDedicated 
+          {
+            p0-UE-PUSCH 0,
+            deltaMCS-Enabled en0,
+            accumulationEnabled TRUE,
+            p0-UE-PUCCH 0,
+            pSRS-Offset 7
+          },
+          cqi-ReportConfig 
+          {
+            cqi-ReportModeAperiodic rm30,
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic setup : 
+            {
+              cqi-PUCCH-ResourceIndex 0,
+              cqi-pmi-ConfigIndex 28,
+              cqi-FormatIndicatorPeriodic widebandCQI : NULL,
+              simultaneousAckNackAndCQI FALSE
+            }
+          },
+          schedulingRequestConfig setup : 
+          {
+            sr-PUCCH-ResourceIndex 0,
+            sr-ConfigIndex 22,
+            dsr-TransMax n64
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:17.720 19:32:17.719 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetupComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetupComplete-r8 : 
+    {
+      selectedPLMN-Identity 1,
+      dedicatedInfoNAS '0741720829449011111101300680800000 ...'H
+    }
+  }
+}
+
+19:32:17.737 19:32:17.737 [39;49mINF[0m: MME-1: UE3: eNB=1, ENB_UE_S1AP_ID=3. S1:INITIAL_UE_MESSAGE[NAS:ATTACH_REQUEST]. IMSI=244091111111003, TAI:262:03:33, Open Cell
+19:32:17.744 19:32:17.744 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '075200576F79567DADD964459A8670AAD2 ...'H
+    }
+  }
+}
+
+19:32:17.745 19:32:17.745 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '0753089B09CF3F93B3F64D'H
+    }
+  }
+}
+
+19:32:17.761 19:32:17.761 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : dlInformationTransfer : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : dlInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '370000000000075D0000028080'H
+    }
+  }
+}
+
+19:32:17.762 19:32:17.762 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '470000000000075E'H
+    }
+  }
+}
+
+19:32:17.779 19:32:17.779 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : securityModeCommand : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : securityModeCommand-r8 : 
+    {
+      securityConfigSMC 
+      {
+        securityAlgorithmConfig 
+        {
+          cipheringAlgorithm eea0,
+          integrityProtAlgorithm spare1
+        }
+      }
+    }
+  }
+}
+
+19:32:17.779 19:32:17.779 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : securityModeComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions securityModeComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:17.779 19:32:17.779 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityEnquiry : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityEnquiry-r8 : 
+    {
+      ue-CapabilityRequest 
+      {
+        eutra
+      }
+    }
+  }
+}
+
+19:32:17.780 19:32:17.779 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> E-UTRA capability
+value UE-EUTRA-Capability ::= 
+{
+  accessStratumRelease rel11,
+  ue-Category 4,
+  pdcp-Parameters 
+  {
+    supportedROHC-Profiles 
+    {
+      profile0x0001 TRUE,
+      profile0x0002 TRUE,
+      profile0x0003 TRUE,
+      profile0x0004 TRUE,
+      profile0x0006 TRUE,
+      profile0x0101 TRUE,
+      profile0x0102 TRUE,
+      profile0x0103 TRUE,
+      profile0x0104 TRUE
+    }
+  },
+  phyLayerParameters 
+  {
+    ue-TxAntennaSelectionSupported FALSE,
+    ue-SpecificRefSigsSupported TRUE
+  },
+  rf-Parameters 
+  {
+    supportedBandListEUTRA 
+    {
+      {
+        bandEUTRA 39,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 38,
+        halfDuplex TRUE
+      },
+      {
+        bandEUTRA 40,
+        halfDuplex FALSE
+      },
+      {
+        bandEUTRA 41,
+        halfDuplex FALSE
+      }
+    }
+  },
+  measParameters 
+  {
+    bandListEUTRA 
+    {
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      },
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps TRUE
+          },
+          {
+            interFreqNeedForGaps TRUE
+          }
+        }
+      }
+    }
+  },
+  featureGroupIndicators '11111111 11111111 11111111 11111111'B,
+  interRAT-Parameters 
+  {
+    utraFDD 
+    {
+      supportedBandListUTRA-FDD 
+      {
+        bandIII,
+        bandI,
+        bandI,
+        bandIV
+      }
+    },
+    utraTDD128 
+    {
+      supportedBandListUTRA-TDD128 
+      {
+        a,
+        b
+      }
+    },
+    geran 
+    {
+      supportedBandListGERAN 
+      {
+        gsm1800,
+        gsm1900
+      },
+      interRAT-PS-HO-ToGERAN FALSE
+    },
+    cdma2000-1xRTT 
+    {
+      supportedBandList1XRTT 
+      {
+        bc0,
+        bc1
+      },
+      tx-Config1XRTT single,
+      rx-Config1XRTT single
+    }
+  },
+  nonCriticalExtension 
+  {
+    phyLayerParameters-v920 
+    {
+      enhancedDualLayerTDD-r9 supported
+    },
+    interRAT-ParametersGERAN-v920 
+    {
+    },
+    interRAT-ParametersCDMA2000-v920 
+    {
+      e-CSFB-1XRTT-r9 supported
+    },
+    csg-ProximityIndicationParameters-r9 
+    {
+    },
+    neighCellSI-AcquisitionParameters-r9 
+    {
+    },
+    son-Parameters-r9 
+    {
+    },
+    nonCriticalExtension 
+    {
+      lateNonCriticalExtension 
+        CONTAINING
+        {
+          featureGroupIndRel9Add-r9 '11111111 11111111 11111111 11111111'B,
+          nonCriticalExtension 
+          {
+          }
+        },
+      nonCriticalExtension 
+      {
+        featureGroupIndRel10-r10 '11111111 11111111 11111111 11111111'B,
+        ue-BasedNetwPerfMeasParameters-r10 
+        {
+          loggedMeasurementsIdle-r10 supported,
+          standaloneGNSS-Location-r10 supported
+        }
+      }
+    }
+  }
+}
+
+19:32:17.780 19:32:17.779 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityInformation : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityInformation-r8 : 
+    {
+      ue-CapabilityRAT-ContainerList 
+      {
+        {
+          rat-Type eutra,
+          ueCapabilityRAT-Container 'CD9FF439B2E750040E07FFFFFFFFCA1880 ...'H
+        }
+      }
+    }
+  }
+}
+
+19:32:17.805 19:32:17.805 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfiguration : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions c1 : rrcConnectionReconfiguration-r8 : 
+    {
+      measConfig 
+      {
+        measObjectToAddModList 
+        {
+          {
+            measObjectId 1,
+            measObject measObjectEUTRA : 
+            {
+              carrierFreq 38000,
+              allowedMeasBandwidth mbw50,
+              presenceAntennaPort1 FALSE,
+              neighCellConfig '00'B,
+              blackCellsToAddModList 
+              {
+                {
+                  cellIndex 1,
+                  physCellIdRange 
+                  {
+                    start 499,
+                    range n4
+                  }
+                }
+              }
+            }
+          }
+        },
+        reportConfigToAddModList 
+        {
+          {
+            reportConfigId 1,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA3 : 
+                {
+                  a3-Offset 6,
+                  reportOnLeave FALSE
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms1024,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 2,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA5 : 
+                {
+                  a5-Threshold1 threshold-RSRP : 30,
+                  a5-Threshold2 threshold-RSRP : 31
+                },
+                hysteresis 0,
+                timeToTrigger ms320
+              },
+              triggerQuantity rsrp,
+              reportQuantity both,
+              maxReportCells 8,
+              reportInterval ms240,
+              reportAmount infinity
+            }
+          },
+          {
+            reportConfigId 3,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 1
+                },
+                hysteresis 0,
+                timeToTrigger ms256
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          },
+          {
+            reportConfigId 4,
+            reportConfig reportConfigEUTRA : 
+            {
+              triggerType event : 
+              {
+                eventId eventA2 : 
+                {
+                  a2-Threshold threshold-RSRP : 52
+                },
+                hysteresis 0,
+                timeToTrigger ms1024
+              },
+              triggerQuantity rsrp,
+              reportQuantity sameAsTriggerQuantity,
+              maxReportCells 8,
+              reportInterval min60,
+              reportAmount r1
+            }
+          }
+        },
+        measIdToAddModList 
+        {
+          {
+            measId 1,
+            measObjectId 1,
+            reportConfigId 1
+          },
+          {
+            measId 2,
+            measObjectId 1,
+            reportConfigId 2
+          },
+          {
+            measId 4,
+            measObjectId 1,
+            reportConfigId 3
+          },
+          {
+            measId 7,
+            measObjectId 1,
+            reportConfigId 4
+          }
+        },
+        quantityConfig 
+        {
+          quantityConfigEUTRA 
+          {
+          }
+        },
+        measGapConfig release : NULL,
+        s-Measure 90,
+        speedStatePars setup : 
+        {
+          mobilityStateParameters 
+          {
+            t-Evaluation s180,
+            t-HystNormal s180,
+            n-CellChangeMedium 8,
+            n-CellChangeHigh 8
+          },
+          timeToTrigger-SF 
+          {
+            sf-Medium oDot5,
+            sf-High oDot5
+          }
+        }
+      },
+      dedicatedInfoNASList 
+      {
+        '27000000000107420249060062F2300021 ...'H
+      },
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 2,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms100,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms0
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        drb-ToAddModList 
+        {
+          {
+            eps-BearerIdentity 5,
+            drb-Identity 4,
+            pdcp-Config 
+            {
+              discardTimer ms750,
+              rlc-AM 
+              {
+                statusReportRequired TRUE
+              },
+              headerCompression notUsed : NULL
+            },
+            rlc-Config am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms120,
+                pollPDU p32,
+                pollByte kB750,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms50,
+                t-StatusProhibit ms10
+              }
+            },
+            logicalChannelIdentity 3,
+            logicalChannelConfig 
+            {
+              ul-SpecificParameters 
+              {
+                priority 9,
+                prioritisedBitRate infinity,
+                bucketSizeDuration ms100,
+                logicalChannelGroup 0
+              }
+            }
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            periodicBSR-Timer sf10,
+            retxBSR-Timer sf320,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated sf10240,
+          phr-Config setup : 
+          {
+            periodicPHR-Timer sf200,
+            prohibitPHR-Timer sf100,
+            dl-PathlossChange dB3
+          }
+        },
+        physicalConfigDedicated 
+        {
+          antennaInfo-r10 explicitValue-r10 : 
+          {
+            transmissionMode-r10 tm3,
+            codebookSubsetRestriction-r10 '11'B,
+            ue-TransmitAntennaSelection release : NULL
+          },
+          cqi-ReportConfig-r10 
+          {
+            cqi-ReportAperiodic-r10 setup : 
+            {
+              cqi-ReportModeAperiodic-r10 rm30
+            },
+            nomPDSCH-RS-EPRE-Offset 0,
+            cqi-ReportPeriodic-r10 setup : 
+            {
+              cqi-PUCCH-ResourceIndex-r10 0,
+              cqi-pmi-ConfigIndex 28,
+              cqi-FormatIndicatorPeriodic-r10 widebandCQI-r10 : 
+              {
+              },
+              ri-ConfigIndex 161,
+              simultaneousAckNackAndCQI TRUE
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:17.807 19:32:17.806 [39;49mINF[0m: UEC-1: UE3: eNB has changed Transmission Mode to TM3
+19:32:17.807 19:32:17.806 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfigurationComplete : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions rrcConnectionReconfigurationComplete-r8 : 
+    {
+    }
+  }
+}
+
+19:32:17.808 19:32:17.808 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '270000000001074300035200C2'H
+    }
+  }
+}
+
+19:32:17.808 19:32:17.808 [39;49mINF[0m: UEC-1: UE3: UE performed COMBINED_EPS_IMSI_ATTACH (crnti: 54135 = 0xD377)
+19:32:17.820 19:32:17.820 [39;49mINF[0m: MME-1: UE3: === UE IS ACTIVE (eNB=1, TAI:262:03:33, Open Cell, SGW=1, Attach type: COMBINED_EPS_IMSI_ATTACH) ===
+19:32:17.820 19:32:17.820 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : loggedMeasurementConfiguration-r10 : 
+  {
+    criticalExtensions c1 : loggedMeasurementConfiguration-r10 : 
+    {
+      traceReference-r10 
+      {
+        plmn-Identity-r10 
+        {
+          mcc 
+          {
+            2,
+            6,
+            2
+          },
+          mnc 
+          {
+            0,
+            3
+          }
+        },
+        traceId-r10 '00000A'H
+      },
+      traceRecordingSessionRef-r10 '0002'H,
+      tce-Id-r10 '01'H,
+      absoluteTimeInfo-r10 '00010111 00000111 00010001 00010111 001 ...'B,
+      areaConfiguration-r10 trackingAreaCodeList-r10 : 
+      {
+        '00000000 00100001'B
+      },
+      loggingDuration-r10 min10,
+      loggingInterval-r10 ms20480,
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          plmn-IdentityList-r11 
+          {
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                3
+              }
+            },
+            {
+              mcc 
+              {
+                2,
+                6,
+                2
+              },
+              mnc 
+              {
+                0,
+                4
+              }
+            }
+          },
+          areaConfiguration-v1130 
+          {
+            trackingAreaCodeList-v1130 
+            {
+              plmn-Identity-perTAC-List-r11 
+              {
+                {
+                  mcc 
+                  {
+                    0,
+                    0,
+                    3
+                  },
+                  mnc 
+                  {
+                    2,
+                    6,
+                    2
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+19:32:17.824 Session with id 1 was disconnected at Tue Jul 11 19:32:17 2017
+19:32:17.928 Session with id 1 was connected at Tue Jul 11 19:32:17 2017
+[session 1]: script file=/opt/iphy/latest/tddLuaScripts/common/lte_cpln.lua entry=detach_all_ue()
+19:32:18.028 Session with id 1 was disconnected at Tue Jul 11 19:32:18 2017
+19:32:18.084 19:32:18.084 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '27000000000207450B0BF662F230000103 ...'H
+    }
+  }
+}
+
+19:32:18.115 19:32:18.115 [39;49mINF[0m: MME-1: UE1: S1:UPLINK_NAS_TRANSPORT[NAS:DETACH(SWITCH_OFF, TYPE_OF_DETACH UE_COMBINED_EPS_IMSI_DETACH)] received in EmmRegistered_Active state
+19:32:18.115 19:32:18.115 [39;49mINF[0m: MME-1: UE1: ----- UE-initiated NAS DETACH PROCEDURE IS COMPLETED -----
+19:32:18.115 19:32:18.115 [39;49mINF[0m: MME-1: UE1: ======================== UE IS OFF ========================
+19:32:18.121 19:32:18.121 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionRelease : 
+  {
+    rrc-TransactionIdentifier 3,
+    criticalExtensions c1 : rrcConnectionRelease-r8 : 
+    {
+      releaseCause other
+    }
+  }
+}
+
+19:32:18.143 19:32:18.143 [39;49mINF[0m: UEC-1: UE1: detached
+19:32:18.184 19:32:18.184 [36;49mTRC[0m: UEC-1: UE2[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '27000000000207450B0BF662F230000103 ...'H
+    }
+  }
+}
+
+19:32:18.215 19:32:18.214 [39;49mINF[0m: MME-1: UE2: S1:UPLINK_NAS_TRANSPORT[NAS:DETACH(SWITCH_OFF, TYPE_OF_DETACH UE_COMBINED_EPS_IMSI_DETACH)] received in EmmRegistered_Active state
+19:32:18.215 19:32:18.215 [39;49mINF[0m: MME-1: UE2: ----- UE-initiated NAS DETACH PROCEDURE IS COMPLETED -----
+19:32:18.215 19:32:18.215 [39;49mINF[0m: MME-1: UE2: ======================== UE IS OFF ========================
+19:32:18.221 19:32:18.221 [36;49mTRC[0m: UEC-1: UE2[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionRelease : 
+  {
+    rrc-TransactionIdentifier 3,
+    criticalExtensions c1 : rrcConnectionRelease-r8 : 
+    {
+      releaseCause other,
+      idleModeMobilityControlInfo 
+      {
+        freqPriorityListEUTRA 
+        {
+          {
+            carrierFreq 38000,
+            cellReselectionPriority 7
+          }
+        },
+        t320 min180
+      }
+    }
+  }
+}
+
+19:32:18.223 Session with id 1 was connected at Tue Jul 11 19:32:18 2017
+19:32:18.243 19:32:18.243 [39;49mINF[0m: UEC-1: UE2: detached
+[session 1]: 193218
+[31;49mError[0m: Command 193218 is unknown
+19:32:18.285 Session with id 1 was disconnected at Tue Jul 11 19:32:18 2017
+19:32:18.286 19:32:18.286 [36;49mTRC[0m: UEC-1: UE3[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ulInformationTransfer : 
+  {
+    criticalExtensions c1 : ulInformationTransfer-r8 : 
+    {
+      dedicatedInfoType dedicatedInfoNAS : '27000000000207450B0BF662F230000103 ...'H
+    }
+  }
+}
+
+19:32:18.296 19:32:18.295 [39;49mINF[0m: MME-1: UE3: S1:UPLINK_NAS_TRANSPORT[NAS:DETACH(SWITCH_OFF, TYPE_OF_DETACH UE_COMBINED_EPS_IMSI_DETACH)] received in EmmRegistered_Active state
+19:32:18.296 19:32:18.296 [39;49mINF[0m: MME-1: UE3: ----- UE-initiated NAS DETACH PROCEDURE IS COMPLETED -----
+19:32:18.296 19:32:18.296 [39;49mINF[0m: MME-1: UE3: ======================== UE IS OFF ========================
+19:32:18.304 19:32:18.304 [36;49mTRC[0m: UEC-1: UE3[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionRelease : 
+  {
+    rrc-TransactionIdentifier 3,
+    criticalExtensions c1 : rrcConnectionRelease-r8 : 
+    {
+      releaseCause other
+    }
+  }
+}
+
+19:32:18.323 19:32:18.323 [39;49mINF[0m: UEC-1: UE3: detached
+19:32:18.388 Session with id 1 was connected at Tue Jul 11 19:32:18 2017
+[session 1]: set_log flush

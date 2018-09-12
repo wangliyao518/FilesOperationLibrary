@@ -1,0 +1,18 @@
+{
+  "utest/test/test_interface.py::TestFtpDownloadUpload::test__ftp_download_file": true, 
+  "utest/test/test_interface.py::TestFtpDownloadUpload::test__ftp_upload_file": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceBIN::test__modify_bin_file": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceBIN::test__read_bin_file": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceLOG::test__unzip_file": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__add_scfc_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__delete_scfc_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__modify_scfc_attribute": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__modify_scfc_text": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__read_PM_text": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceSCFC::test__setup_and_teardown_scfc": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceTXT::test__add_txt_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceTXT::test__delete_txt_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceTXT::test__get_txt_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceTXT::test__modify_txt_node": true, 
+  "utest/test/test_interface.py::TestKissFilesInterfaceTXT::test__setup_and_teardown_txt": true
+}

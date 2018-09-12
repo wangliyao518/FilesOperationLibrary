@@ -1,0 +1,8790 @@
+08:48:22.402 Session with id 1 was disconnected at Fri Jul 27 08:48:22 2018
+08:48:38.637 08:48:38.637 [37;41mACR[0m: MME-1: S1:Reset received from eNB=1
+08:48:38.637 08:48:38.637 [39;49mINF[0m: MME-1: UE1: UE state at MME is IDLE. Real UE state may differ from MME's one (see ue_disp at=ue)
+08:48:38.651 08:48:38.651 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionRelease : 
+  {
+    rrc-TransactionIdentifier 3,
+    criticalExtensions c1 : rrcConnectionRelease-r8 : 
+    {
+      releaseCause other
+    }
+  }
+}
+
+08:48:38.744 08:48:38.744 [39;49mINF[0m: UEC-1: UE1: IS IDLE
+08:48:38.965 08:48:38.965 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:38.965 08:48:38.965 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:39.220 08:48:39.219 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:39.222 08:48:39.222 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-CCCH eNodeB
+value UL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionRequest : 
+  {
+    criticalExtensions rrcConnectionRequest-r8 : 
+    {
+      ue-Identity s-TMSI : 
+      {
+        mmec '00000011'B,
+        m-TMSI '00000000 00000001 10111111 11011110'B
+      },
+      establishmentCause mt-Access,
+      spare '0'B
+    }
+  }
+}
+
+08:48:39.262 08:48:39.262 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-CCCH
+value DL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionReject : 
+  {
+    criticalExtensions c1 : rrcConnectionReject-r8 : 
+    {
+      waitTime 16
+    }
+  }
+}
+
+08:48:39.262 08:48:39.262 [39;49mINF[0m: UEC-1: UE1: RRC connection rejected. Starting T302 with timer value set to waitTime (16 seconds) extendedWaitTime received for a UE which is not EstablishmentCause=delayTolerantAccess_v1020
+08:48:39.330 08:48:39.329 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:39.330 08:48:39.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:42.170 08:48:42.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.170 08:48:42.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.170 08:48:42.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.180 08:48:42.179 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.190 08:48:42.190 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.200 08:48:42.199 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.210 08:48:42.209 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.210 08:48:42.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.210 08:48:42.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.220 08:48:42.219 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.230 08:48:42.230 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.243 08:48:42.239 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.250 08:48:42.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.250 08:48:42.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.250 08:48:42.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.260 08:48:42.260 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.270 08:48:42.270 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.280 08:48:42.280 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.290 08:48:42.289 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.290 08:48:42.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.290 08:48:42.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.300 08:48:42.300 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.310 08:48:42.310 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.320 08:48:42.320 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.330 08:48:42.329 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.330 08:48:42.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.330 08:48:42.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.340 08:48:42.339 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.350 08:48:42.350 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.360 08:48:42.360 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.370 08:48:42.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.370 08:48:42.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.370 08:48:42.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.380 08:48:42.380 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.390 08:48:42.389 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.400 08:48:42.400 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.410 08:48:42.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.410 08:48:42.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.410 08:48:42.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.420 08:48:42.420 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.430 08:48:42.430 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.440 08:48:42.440 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.450 08:48:42.449 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.450 08:48:42.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.450 08:48:42.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.460 08:48:42.460 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.470 08:48:42.470 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.480 08:48:42.479 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.490 08:48:42.489 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.490 08:48:42.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.490 08:48:42.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.500 08:48:42.499 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.510 08:48:42.509 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.520 08:48:42.520 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.530 08:48:42.529 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.530 08:48:42.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.530 08:48:42.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.540 08:48:42.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.550 08:48:42.549 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.560 08:48:42.560 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.570 08:48:42.569 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.570 08:48:42.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.570 08:48:42.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.580 08:48:42.579 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.590 08:48:42.590 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.600 08:48:42.599 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.610 08:48:42.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.610 08:48:42.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.610 08:48:42.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.620 08:48:42.619 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.630 08:48:42.630 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.640 08:48:42.640 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.650 08:48:42.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.650 08:48:42.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.650 08:48:42.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.660 08:48:42.659 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.670 08:48:42.670 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.680 08:48:42.680 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.690 08:48:42.689 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.690 08:48:42.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.690 08:48:42.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.700 08:48:42.699 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.710 08:48:42.710 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.720 08:48:42.719 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.730 08:48:42.729 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.730 08:48:42.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.730 08:48:42.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.740 08:48:42.739 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.750 08:48:42.749 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.762 08:48:42.762 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.770 08:48:42.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.770 08:48:42.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.770 08:48:42.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.780 08:48:42.779 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.790 08:48:42.789 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.800 08:48:42.799 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.810 08:48:42.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.810 08:48:42.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.810 08:48:42.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.820 08:48:42.820 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.830 08:48:42.829 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.840 08:48:42.840 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.850 08:48:42.849 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.850 08:48:42.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.850 08:48:42.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.860 08:48:42.859 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.870 08:48:42.869 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.880 08:48:42.880 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.890 08:48:42.889 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.890 08:48:42.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.890 08:48:42.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.900 08:48:42.900 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.910 08:48:42.910 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.920 08:48:42.920 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.923 08:48:42.923 [37;41mACR[0m: MME-1: UE1: PagingRspTimer expiration (1)
+08:48:42.923 08:48:42.923 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:42.923 08:48:42.923 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:42.930 08:48:42.929 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.930 08:48:42.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.930 08:48:42.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.940 08:48:42.940 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.950 08:48:42.949 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.960 08:48:42.960 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.970 08:48:42.969 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.970 08:48:42.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.970 08:48:42.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.980 08:48:42.979 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:42.990 08:48:42.989 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.001 08:48:42.999 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.010 08:48:43.009 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.010 08:48:43.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.010 08:48:43.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.020 08:48:43.019 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.030 08:48:43.030 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.040 08:48:43.040 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.050 08:48:43.049 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.050 08:48:43.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.050 08:48:43.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.060 08:48:43.060 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    },
+    systemInfoModification true
+  }
+}
+
+08:48:43.060 08:48:43.060 [39;49mINF[0m: UEC-1: Paging systemInfoModification is present
+08:48:43.070 08:48:43.070 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.080 08:48:43.080 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.090 08:48:43.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.090 08:48:43.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.090 08:48:43.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.100 08:48:43.100 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.110 08:48:43.110 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.120 08:48:43.120 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.131 08:48:43.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.131 08:48:43.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.131 08:48:43.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.140 08:48:43.139 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.150 08:48:43.149 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.160 08:48:43.159 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.170 08:48:43.169 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    },
+    systemInfoModification true
+  }
+}
+
+08:48:43.170 08:48:43.170 [39;49mINF[0m: UEC-1: Paging systemInfoModification is present
+08:48:43.170 08:48:43.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    },
+    systemInfoModification true
+  }
+}
+
+08:48:43.170 08:48:43.170 [39;49mINF[0m: UEC-1: Paging systemInfoModification is present
+08:48:43.170 08:48:43.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.180 08:48:43.179 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.190 08:48:43.189 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.200 08:48:43.200 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.210 08:48:43.209 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.210 08:48:43.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.210 08:48:43.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.220 08:48:43.220 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.230 08:48:43.230 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.240 08:48:43.240 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.250 08:48:43.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.250 08:48:43.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.250 08:48:43.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.260 08:48:43.259 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.270 08:48:43.270 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.280 08:48:43.279 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.290 08:48:43.289 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.290 08:48:43.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.290 08:48:43.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.300 08:48:43.300 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.310 08:48:43.310 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.320 08:48:43.320 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.330 08:48:43.329 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.330 08:48:43.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.330 08:48:43.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.340 08:48:43.340 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.350 08:48:43.350 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.360 08:48:43.359 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.370 08:48:43.369 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.370 08:48:43.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.370 08:48:43.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.380 08:48:43.379 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.390 08:48:43.390 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.400 08:48:43.399 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.410 08:48:43.409 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.410 08:48:43.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.410 08:48:43.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.420 08:48:43.420 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.430 08:48:43.430 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.440 08:48:43.440 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.450 08:48:43.449 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.450 08:48:43.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.450 08:48:43.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.460 08:48:43.459 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.470 08:48:43.469 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.480 08:48:43.479 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.490 08:48:43.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.490 08:48:43.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.490 08:48:43.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.500 08:48:43.499 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.510 08:48:43.510 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.520 08:48:43.520 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.530 08:48:43.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.530 08:48:43.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.530 08:48:43.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.540 08:48:43.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.550 08:48:43.550 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.560 08:48:43.560 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.570 08:48:43.569 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.570 08:48:43.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.570 08:48:43.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.580 08:48:43.580 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.590 08:48:43.590 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.600 08:48:43.600 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.610 08:48:43.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.610 08:48:43.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.610 08:48:43.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.620 08:48:43.620 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.630 08:48:43.630 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.640 08:48:43.640 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.650 08:48:43.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.650 08:48:43.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.650 08:48:43.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.660 08:48:43.660 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.670 08:48:43.670 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.680 08:48:43.679 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.690 08:48:43.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.690 08:48:43.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.690 08:48:43.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.700 08:48:43.700 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.710 08:48:43.710 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.720 08:48:43.719 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.730 08:48:43.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.730 08:48:43.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.730 08:48:43.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.740 08:48:43.740 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.750 08:48:43.750 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.760 08:48:43.760 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.770 08:48:43.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.770 08:48:43.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.770 08:48:43.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.780 08:48:43.779 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.790 08:48:43.789 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.800 08:48:43.799 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.810 08:48:43.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.810 08:48:43.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.810 08:48:43.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.820 08:48:43.820 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.830 08:48:43.829 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.840 08:48:43.840 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.850 08:48:43.849 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.850 08:48:43.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.850 08:48:43.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.860 08:48:43.860 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.870 08:48:43.870 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.880 08:48:43.879 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.890 08:48:43.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.890 08:48:43.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.890 08:48:43.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.900 08:48:43.900 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.910 08:48:43.910 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.920 08:48:43.920 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.930 08:48:43.929 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.930 08:48:43.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.930 08:48:43.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.940 08:48:43.940 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.950 08:48:43.950 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.960 08:48:43.960 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.970 08:48:43.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.970 08:48:43.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.970 08:48:43.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.980 08:48:43.980 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:43.990 08:48:43.989 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.000 08:48:44.000 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.010 08:48:44.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.010 08:48:44.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.010 08:48:44.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.020 08:48:44.020 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.032 08:48:44.031 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.040 08:48:44.040 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.050 08:48:44.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.050 08:48:44.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.050 08:48:44.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.060 08:48:44.060 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.070 08:48:44.070 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.080 08:48:44.080 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.090 08:48:44.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.090 08:48:44.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.090 08:48:44.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.100 08:48:44.100 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.110 08:48:44.110 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.120 08:48:44.120 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.130 08:48:44.129 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.130 08:48:44.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.130 08:48:44.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.140 08:48:44.140 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.150 08:48:44.150 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.160 08:48:44.160 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.170 08:48:44.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.170 08:48:44.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.170 08:48:44.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.180 08:48:44.180 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.190 08:48:44.190 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.200 08:48:44.199 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.210 08:48:44.209 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.210 08:48:44.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.210 08:48:44.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.220 08:48:44.219 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.230 08:48:44.229 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.240 08:48:44.240 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.250 08:48:44.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.250 08:48:44.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.250 08:48:44.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.260 08:48:44.260 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.270 08:48:44.270 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.280 08:48:44.280 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.290 08:48:44.289 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.290 08:48:44.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.290 08:48:44.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.300 08:48:44.300 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.310 08:48:44.310 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.320 08:48:44.320 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.330 08:48:44.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.330 08:48:44.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.330 08:48:44.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.340 08:48:44.339 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.350 08:48:44.350 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.360 08:48:44.360 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.370 08:48:44.369 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.370 08:48:44.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.370 08:48:44.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.380 08:48:44.379 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.390 08:48:44.390 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.400 08:48:44.399 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.410 08:48:44.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.410 08:48:44.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.410 08:48:44.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.420 08:48:44.420 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.430 08:48:44.430 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.440 08:48:44.439 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.450 08:48:44.449 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.450 08:48:44.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.450 08:48:44.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.460 08:48:44.459 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.470 08:48:44.469 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.480 08:48:44.480 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.490 08:48:44.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.490 08:48:44.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.490 08:48:44.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.500 08:48:44.500 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.510 08:48:44.510 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.520 08:48:44.520 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.530 08:48:44.529 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.530 08:48:44.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.530 08:48:44.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.540 08:48:44.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.550 08:48:44.550 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.560 08:48:44.560 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.570 08:48:44.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.570 08:48:44.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.570 08:48:44.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.580 08:48:44.580 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.590 08:48:44.590 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.600 08:48:44.600 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.610 08:48:44.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.610 08:48:44.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.610 08:48:44.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.620 08:48:44.619 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.630 08:48:44.630 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.640 08:48:44.639 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.650 08:48:44.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.650 08:48:44.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.650 08:48:44.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.660 08:48:44.660 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.670 08:48:44.669 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.680 08:48:44.679 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.690 08:48:44.689 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.690 08:48:44.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.690 08:48:44.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.700 08:48:44.700 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.710 08:48:44.710 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.720 08:48:44.720 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.730 08:48:44.729 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.730 08:48:44.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.730 08:48:44.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.740 08:48:44.740 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.750 08:48:44.750 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.760 08:48:44.760 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.770 08:48:44.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.770 08:48:44.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.770 08:48:44.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.780 08:48:44.780 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.790 08:48:44.790 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.800 08:48:44.799 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.810 08:48:44.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.810 08:48:44.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.810 08:48:44.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.820 08:48:44.820 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.832 08:48:44.832 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.840 08:48:44.840 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.850 08:48:44.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.850 08:48:44.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.851 08:48:44.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.860 08:48:44.860 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.870 08:48:44.870 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.880 08:48:44.880 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.890 08:48:44.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.890 08:48:44.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.890 08:48:44.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.900 08:48:44.900 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.910 08:48:44.910 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.920 08:48:44.919 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.930 08:48:44.929 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.930 08:48:44.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.930 08:48:44.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.940 08:48:44.940 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.950 08:48:44.949 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.960 08:48:44.960 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.970 08:48:44.969 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.970 08:48:44.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.970 08:48:44.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.980 08:48:44.979 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:44.990 08:48:44.990 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.000 08:48:45.000 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.010 08:48:45.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.010 08:48:45.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.010 08:48:45.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.020 08:48:45.020 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.031 08:48:45.031 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.040 08:48:45.040 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.050 08:48:45.049 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.050 08:48:45.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.050 08:48:45.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.060 08:48:45.059 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.069 08:48:45.069 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.080 08:48:45.079 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.089 08:48:45.089 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.090 08:48:45.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.090 08:48:45.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.100 08:48:45.099 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.110 08:48:45.109 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.121 08:48:45.120 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.130 08:48:45.129 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.131 08:48:45.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.131 08:48:45.131 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.140 08:48:45.140 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.150 08:48:45.150 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.160 08:48:45.160 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.170 08:48:45.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.170 08:48:45.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.170 08:48:45.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.180 08:48:45.180 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.190 08:48:45.190 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.200 08:48:45.200 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.210 08:48:45.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.210 08:48:45.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.210 08:48:45.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.220 08:48:45.219 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.230 08:48:45.229 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.240 08:48:45.239 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.250 08:48:45.249 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.250 08:48:45.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.250 08:48:45.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.260 08:48:45.259 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.270 08:48:45.269 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.280 08:48:45.279 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.290 08:48:45.289 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.290 08:48:45.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.290 08:48:45.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.300 08:48:45.299 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.310 08:48:45.309 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.320 08:48:45.319 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.330 08:48:45.329 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.330 08:48:45.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.330 08:48:45.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.340 08:48:45.340 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.350 08:48:45.350 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.360 08:48:45.360 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.370 08:48:45.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.370 08:48:45.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.370 08:48:45.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.380 08:48:45.379 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.390 08:48:45.390 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.400 08:48:45.400 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.410 08:48:45.409 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.410 08:48:45.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.410 08:48:45.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.420 08:48:45.420 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.430 08:48:45.430 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.440 08:48:45.440 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.450 08:48:45.449 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.450 08:48:45.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.450 08:48:45.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.460 08:48:45.460 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.470 08:48:45.470 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.480 08:48:45.479 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.490 08:48:45.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.490 08:48:45.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.490 08:48:45.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.500 08:48:45.500 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.510 08:48:45.510 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.520 08:48:45.520 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.530 08:48:45.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.530 08:48:45.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.530 08:48:45.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.540 08:48:45.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.550 08:48:45.550 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.560 08:48:45.560 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.570 08:48:45.569 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.570 08:48:45.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.570 08:48:45.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.580 08:48:45.580 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.590 08:48:45.590 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.600 08:48:45.600 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.610 08:48:45.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.610 08:48:45.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.610 08:48:45.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.620 08:48:45.620 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.630 08:48:45.630 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.640 08:48:45.640 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.650 08:48:45.649 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.650 08:48:45.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.650 08:48:45.650 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.660 08:48:45.660 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.670 08:48:45.670 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.680 08:48:45.680 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.690 08:48:45.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.690 08:48:45.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.690 08:48:45.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.700 08:48:45.700 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.710 08:48:45.710 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.720 08:48:45.720 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.730 08:48:45.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.730 08:48:45.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.730 08:48:45.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.740 08:48:45.740 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.750 08:48:45.750 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.760 08:48:45.760 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.770 08:48:45.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.770 08:48:45.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.770 08:48:45.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.780 08:48:45.780 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.790 08:48:45.790 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.800 08:48:45.800 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.810 08:48:45.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.810 08:48:45.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.810 08:48:45.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.820 08:48:45.819 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.830 08:48:45.830 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.840 08:48:45.839 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.850 08:48:45.849 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.850 08:48:45.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.850 08:48:45.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.860 08:48:45.859 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.870 08:48:45.870 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.880 08:48:45.880 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.890 08:48:45.889 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.890 08:48:45.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.890 08:48:45.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.900 08:48:45.899 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.910 08:48:45.909 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.920 08:48:45.920 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.930 08:48:45.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.930 08:48:45.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.930 08:48:45.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.940 08:48:45.940 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.950 08:48:45.950 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.960 08:48:45.959 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.970 08:48:45.969 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.970 08:48:45.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.970 08:48:45.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.980 08:48:45.979 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:45.990 08:48:45.990 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.000 08:48:45.999 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.010 08:48:46.009 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.010 08:48:46.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.010 08:48:46.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.020 08:48:46.020 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.030 08:48:46.029 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.040 08:48:46.039 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.050 08:48:46.049 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.050 08:48:46.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.050 08:48:46.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.060 08:48:46.060 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.070 08:48:46.069 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.080 08:48:46.079 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.090 08:48:46.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.090 08:48:46.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.090 08:48:46.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.100 08:48:46.100 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.110 08:48:46.110 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.120 08:48:46.120 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.130 08:48:46.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.130 08:48:46.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.130 08:48:46.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.140 08:48:46.140 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.150 08:48:46.150 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.160 08:48:46.160 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.170 08:48:46.169 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.170 08:48:46.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.170 08:48:46.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.180 08:48:46.180 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.190 08:48:46.190 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.200 08:48:46.199 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.210 08:48:46.209 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.210 08:48:46.209 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.210 08:48:46.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.220 08:48:46.219 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.230 08:48:46.229 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.240 08:48:46.239 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.250 08:48:46.249 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.250 08:48:46.249 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.250 08:48:46.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.260 08:48:46.259 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.270 08:48:46.270 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.280 08:48:46.280 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.290 08:48:46.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.290 08:48:46.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.290 08:48:46.290 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.300 08:48:46.300 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.310 08:48:46.310 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.320 08:48:46.320 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.330 08:48:46.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.330 08:48:46.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.330 08:48:46.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.340 08:48:46.340 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.350 08:48:46.350 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.360 08:48:46.360 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.370 08:48:46.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.370 08:48:46.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.370 08:48:46.370 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.380 08:48:46.380 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.390 08:48:46.390 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.400 08:48:46.400 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.410 08:48:46.409 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.410 08:48:46.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.410 08:48:46.410 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.420 08:48:46.419 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.430 08:48:46.430 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.440 08:48:46.440 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.450 08:48:46.449 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.450 08:48:46.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.450 08:48:46.450 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.460 08:48:46.460 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.470 08:48:46.470 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.480 08:48:46.480 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.490 08:48:46.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.490 08:48:46.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.490 08:48:46.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.500 08:48:46.499 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.510 08:48:46.510 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.520 08:48:46.520 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.530 08:48:46.529 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.530 08:48:46.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.530 08:48:46.530 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.540 08:48:46.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.550 08:48:46.549 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.560 08:48:46.559 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.570 08:48:46.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.570 08:48:46.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.570 08:48:46.570 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.580 08:48:46.580 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.590 08:48:46.590 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.599 08:48:46.599 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.610 08:48:46.609 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.610 08:48:46.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.610 08:48:46.610 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.620 08:48:46.619 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.630 08:48:46.629 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.640 08:48:46.639 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.650 08:48:46.649 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.650 08:48:46.649 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.650 08:48:46.649 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.660 08:48:46.659 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.670 08:48:46.669 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.680 08:48:46.679 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.690 08:48:46.689 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.690 08:48:46.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.690 08:48:46.690 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.700 08:48:46.699 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.710 08:48:46.709 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.720 08:48:46.719 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.730 08:48:46.729 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.730 08:48:46.729 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.730 08:48:46.730 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.740 08:48:46.739 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.750 08:48:46.749 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.760 08:48:46.759 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.770 08:48:46.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.770 08:48:46.769 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.770 08:48:46.770 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.780 08:48:46.779 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.790 08:48:46.790 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.800 08:48:46.800 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.810 08:48:46.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.810 08:48:46.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.810 08:48:46.810 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.820 08:48:46.820 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.830 08:48:46.830 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.840 08:48:46.840 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.850 08:48:46.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.850 08:48:46.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.850 08:48:46.850 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.860 08:48:46.860 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.870 08:48:46.870 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.880 08:48:46.880 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.890 08:48:46.889 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.890 08:48:46.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.890 08:48:46.890 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.900 08:48:46.900 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.910 08:48:46.909 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.920 08:48:46.919 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.924 08:48:46.923 [37;41mACR[0m: MME-1: UE1: PagingRspTimer expiration (2)
+08:48:46.924 08:48:46.924 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:46.924 08:48:46.924 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:46.930 08:48:46.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.930 08:48:46.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.930 08:48:46.930 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.940 08:48:46.940 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.950 08:48:46.950 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.960 08:48:46.960 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.970 08:48:46.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.970 08:48:46.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.970 08:48:46.970 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.980 08:48:46.980 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:46.990 08:48:46.989 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.000 08:48:47.000 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.010 08:48:47.009 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    },
+    systemInfoModification true
+  }
+}
+
+08:48:47.010 08:48:47.010 [39;49mINF[0m: UEC-1: Paging systemInfoModification is present
+08:48:47.010 08:48:47.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    },
+    systemInfoModification true
+  }
+}
+
+08:48:47.010 08:48:47.010 [39;49mINF[0m: UEC-1: Paging systemInfoModification is present
+08:48:47.010 08:48:47.010 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.020 08:48:47.020 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.030 08:48:47.030 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.040 08:48:47.040 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.050 08:48:47.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.050 08:48:47.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.050 08:48:47.050 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.060 08:48:47.060 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.070 08:48:47.070 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.080 08:48:47.080 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.090 08:48:47.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.090 08:48:47.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.090 08:48:47.090 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.100 08:48:47.100 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.110 08:48:47.110 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.120 08:48:47.120 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.130 08:48:47.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.130 08:48:47.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.130 08:48:47.130 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.140 08:48:47.140 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.150 08:48:47.150 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.160 08:48:47.160 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.170 08:48:47.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.170 08:48:47.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.170 08:48:47.170 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.180 08:48:47.180 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.190 08:48:47.189 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.200 08:48:47.200 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.210 08:48:47.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.210 08:48:47.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.210 08:48:47.210 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.220 08:48:47.220 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.230 08:48:47.230 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.240 08:48:47.239 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.250 08:48:47.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.250 08:48:47.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.250 08:48:47.250 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.260 08:48:47.259 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.270 08:48:47.270 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.280 08:48:47.280 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    systemInfoModification true
+  }
+}
+
+08:48:47.281 08:48:47.281 [39;49mINF[0m: UEC-1: 1 CE level(s) sent by the eNodeB in SIB2-BR
+08:48:47.281 08:48:47.281 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType2-BR updated
+08:48:47.281 08:48:47.281 [36;49mTRC[0m: UEC-1[RRC]: <-DL_BCCH_SCH_BR eNodeB
+value BCCH-DL-SCH-Message-BR ::= 
+{
+  message c1 : systemInformation-BR-r13 : 
+  {
+    criticalExtensions systemInformation-r8 : 
+    {
+      sib-TypeAndInfo 
+      {
+        sib2 : 
+        {
+          radioResourceConfigCommon 
+          {
+            rach-ConfigCommon 
+            {
+              preambleInfo 
+              {
+                numberOfRA-Preambles n4
+              },
+              powerRampingParameters 
+              {
+                powerRampingStep dB2,
+                preambleInitialReceivedTargetPower dBm-104
+              },
+              ra-SupervisionInfo 
+              {
+                preambleTransMax n3,
+                ra-ResponseWindowSize sf2,
+                mac-ContentionResolutionTimer sf8
+              },
+              maxHARQ-Msg3Tx 1,
+              preambleTransMax-CE-r13 n8,
+              rach-CE-LevelInfoList-r13 
+              {
+                {
+                  preambleMappingInfo-r13 
+                  {
+                    firstPreamble-r13 57,
+                    lastPreamble-r13 63
+                  },
+                  ra-ResponseWindowSize-r13 sf120,
+                  mac-ContentionResolutionTimer-r13 sf240,
+                  rar-HoppingConfig-r13 off
+                }
+              }
+            },
+            bcch-Config 
+            {
+              modificationPeriodCoeff n4
+            },
+            pcch-Config 
+            {
+              defaultPagingCycle rf128,
+              nB oneThirtySecondT
+            },
+            prach-Config 
+            {
+              rootSequenceIndex 12,
+              prach-ConfigInfo 
+              {
+                prach-ConfigIndex 20,
+                highSpeedFlag FALSE,
+                zeroCorrelationZoneConfig 0,
+                prach-FreqOffset 3
+              }
+            },
+            pdsch-ConfigCommon 
+            {
+              referenceSignalPower 11,
+              p-b 1
+            },
+            pusch-ConfigCommon 
+            {
+              pusch-ConfigBasic 
+              {
+                n-SB 1,
+                hoppingMode interSubFrame,
+                pusch-HoppingOffset 6,
+                enable64QAM FALSE
+              },
+              ul-ReferenceSignalsPUSCH 
+              {
+                groupHoppingEnabled FALSE,
+                groupAssignmentPUSCH 0,
+                sequenceHoppingEnabled FALSE,
+                cyclicShift 0
+              }
+            },
+            pucch-ConfigCommon 
+            {
+              deltaPUCCH-Shift ds1,
+              nRB-CQI 2,
+              nCS-AN 0,
+              n1PUCCH-AN 0
+            },
+            soundingRS-UL-ConfigCommon release : NULL,
+            uplinkPowerControlCommon 
+            {
+              p0-NominalPUSCH -80,
+              alpha al1,
+              p0-NominalPUCCH -116,
+              deltaFList-PUCCH 
+              {
+                deltaF-PUCCH-Format1 deltaF0,
+                deltaF-PUCCH-Format1b deltaF1,
+                deltaF-PUCCH-Format2 deltaF-2,
+                deltaF-PUCCH-Format2a deltaF-2,
+                deltaF-PUCCH-Format2b deltaF-2
+              },
+              deltaPreambleMsg3 1
+            },
+            ul-CyclicPrefixLength len1,
+            pcch-Config-v1310 
+            {
+              paging-narrowBands-r13 1,
+              mpdcch-NumRepetition-Paging-r13 r16,
+              nB-v1310 one64thT
+            },
+            freqHoppingParameters-r13 
+            {
+              interval-ULHoppingConfigCommonModeA-r13 interval-FDD-r13 : int1
+            },
+            prach-ConfigCommon-v1310 
+            {
+              rsrp-ThresholdsPrachInfoList-r13 
+              {
+                0
+              },
+              mpdcch-startSF-CSS-RA-r13 fdd-r13 : v2,
+              prach-ParametersListCE-r13 
+              {
+                {
+                  prach-ConfigIndex-r13 20,
+                  prach-FreqOffset-r13 3,
+                  maxNumPreambleAttemptCE-r13 n5,
+                  numRepetitionPerPreambleAttempt-r13 n1,
+                  mpdcch-NarrowbandsToMonitor-r13 
+                  {
+                    8
+                  },
+                  mpdcch-NumRepetition-RA-r13 r2,
+                  prach-HoppingConfig-r13 off
+                }
+              }
+            },
+            pucch-ConfigCommon-v1310 
+            {
+              n1PUCCH-AN-InfoList-r13 
+              {
+                132
+              },
+              pucch-NumRepetitionCE-Msg4-Level0-r13 n1
+            }
+          },
+          ue-TimersAndConstants 
+          {
+            t300 ms2000,
+            t301 ms2000,
+            t310 ms2000,
+            n310 n1,
+            t311 ms3000,
+            n311 n1
+          },
+          freqInfo 
+          {
+            ul-CarrierFreq 19400,
+            ul-Bandwidth n50,
+            additionalSpectrumEmission 1
+          },
+          timeAlignmentTimerCommon infinity
+        }
+      }
+    }
+  }
+}
+
+08:48:47.283 08:48:47.283 [36;49mTRC[0m: UEC-1[RRC]: <-DL-MCCH eNodeB
+value MCCH-Message ::= 
+{
+  message c1 : mbsfnAreaConfiguration-r9 : 
+  {
+    commonSF-Alloc-r9 
+    {
+      {
+        radioframeAllocationPeriod n4,
+        radioframeAllocationOffset 0,
+        subframeAllocation fourFrames : '01100010 00000110 00100000'B
+      }
+    },
+    commonSF-AllocPeriod-r9 rf8,
+    pmch-InfoList-r9 
+    {
+      {
+        pmch-Config-r9 
+        {
+          sf-AllocEnd-r9 11,
+          dataMCS-r9 10,
+          mch-SchedulingPeriod-r9 rf8
+        },
+        mbms-SessionInfoList-r9 
+        {
+          {
+            tmgi-r9 
+            {
+              plmn-Id-r9 explicitValue-r9 : 
+              {
+                mcc 
+                {
+                  2,
+                  6,
+                  2
+                },
+                mnc 
+                {
+                  0,
+                  3
+                }
+              },
+              serviceId-r9 '000001'H
+            },
+            logicalChannelIdentity-r9 1
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:47.283 08:48:47.283 [39;49mINF[0m: UEC-1: eNB 1 cell 1: MBSFN Area Configuration (ID=1) updated
+08:48:47.286 08:48:47.286 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType1 updated
+08:48:47.286 08:48:47.286 [36;49mTRC[0m: UEC-1[RRC]: <-DL-BCCH-SCH eNodeB
+value BCCH-DL-SCH-Message ::= 
+{
+  message c1 : systemInformationBlockType1 : 
+  {
+    cellAccessRelatedInfo 
+    {
+      plmn-IdentityList 
+      {
+        {
+          plmn-Identity 
+          {
+            mcc 
+            {
+              2,
+              6,
+              2
+            },
+            mnc 
+            {
+              0,
+              3
+            }
+          },
+          cellReservedForOperatorUse notReserved
+        },
+        {
+          plmn-Identity 
+          {
+            mcc 
+            {
+              2,
+              6,
+              2
+            },
+            mnc 
+            {
+              0,
+              3
+            }
+          },
+          cellReservedForOperatorUse notReserved
+        }
+      },
+      trackingAreaCode '00000000 00100001'B,
+      cellIdentity '00000000 00000000 00010000 0001'B,
+      cellBarred notBarred,
+      intraFreqReselection allowed,
+      csg-Indication FALSE
+    },
+    cellSelectionInfo 
+    {
+      q-RxLevMin -50
+    },
+    p-Max 33,
+    freqBandIndicator 3,
+    schedulingInfoList 
+    {
+      {
+        si-Periodicity rf16,
+        sib-MappingInfo 
+        {
+        }
+      },
+      {
+        si-Periodicity rf32,
+        sib-MappingInfo 
+        {
+          sibType3
+        }
+      },
+      {
+        si-Periodicity rf32,
+        sib-MappingInfo 
+        {
+          sibType13-v920
+        }
+      }
+    },
+    si-WindowLength ms20,
+    systemInfoValueTag 2,
+    nonCriticalExtension 
+    {
+      nonCriticalExtension 
+      {
+        cellSelectionInfo-v920 
+        {
+          q-QualMin-r9 -34,
+          q-QualMinOffset-r9 1
+        }
+      }
+    }
+  }
+}
+
+08:48:47.293 08:48:47.293 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType2 updated
+08:48:47.293 08:48:47.293 [36;49mTRC[0m: UEC-1[RRC]: <-DL-BCCH-SCH eNodeB
+value BCCH-DL-SCH-Message ::= 
+{
+  message c1 : systemInformation : 
+  {
+    criticalExtensions systemInformation-r8 : 
+    {
+      sib-TypeAndInfo 
+      {
+        sib2 : 
+        {
+          ac-BarringInfo 
+          {
+            ac-BarringForEmergency FALSE,
+            ac-BarringForMO-Signalling 
+            {
+              ac-BarringFactor p95,
+              ac-BarringTime s8,
+              ac-BarringForSpecialAC '00000'B
+            },
+            ac-BarringForMO-Data 
+            {
+              ac-BarringFactor p95,
+              ac-BarringTime s8,
+              ac-BarringForSpecialAC '00000'B
+            }
+          },
+          radioResourceConfigCommon 
+          {
+            rach-ConfigCommon 
+            {
+              preambleInfo 
+              {
+                numberOfRA-Preambles n40,
+                preamblesGroupAConfig 
+                {
+                  sizeOfRA-PreamblesGroupA n32,
+                  messageSizeGroupA b144,
+                  messagePowerOffsetGroupB dB10
+                }
+              },
+              powerRampingParameters 
+              {
+                powerRampingStep dB2,
+                preambleInitialReceivedTargetPower dBm-104
+              },
+              ra-SupervisionInfo 
+              {
+                preambleTransMax n10,
+                ra-ResponseWindowSize sf10,
+                mac-ContentionResolutionTimer sf32
+              },
+              maxHARQ-Msg3Tx 3
+            },
+            bcch-Config 
+            {
+              modificationPeriodCoeff n8
+            },
+            pcch-Config 
+            {
+              defaultPagingCycle rf64,
+              nB oneT
+            },
+            prach-Config 
+            {
+              rootSequenceIndex 12,
+              prach-ConfigInfo 
+              {
+                prach-ConfigIndex 20,
+                highSpeedFlag FALSE,
+                zeroCorrelationZoneConfig 0,
+                prach-FreqOffset 3
+              }
+            },
+            pdsch-ConfigCommon 
+            {
+              referenceSignalPower 11,
+              p-b 1
+            },
+            pusch-ConfigCommon 
+            {
+              pusch-ConfigBasic 
+              {
+                n-SB 1,
+                hoppingMode interSubFrame,
+                pusch-HoppingOffset 6,
+                enable64QAM FALSE
+              },
+              ul-ReferenceSignalsPUSCH 
+              {
+                groupHoppingEnabled FALSE,
+                groupAssignmentPUSCH 0,
+                sequenceHoppingEnabled FALSE,
+                cyclicShift 0
+              }
+            },
+            pucch-ConfigCommon 
+            {
+              deltaPUCCH-Shift ds1,
+              nRB-CQI 2,
+              nCS-AN 0,
+              n1PUCCH-AN 27
+            },
+            soundingRS-UL-ConfigCommon release : NULL,
+            uplinkPowerControlCommon 
+            {
+              p0-NominalPUSCH -106,
+              alpha al1,
+              p0-NominalPUCCH -100,
+              deltaFList-PUCCH 
+              {
+                deltaF-PUCCH-Format1 deltaF0,
+                deltaF-PUCCH-Format1b deltaF1,
+                deltaF-PUCCH-Format2 deltaF0,
+                deltaF-PUCCH-Format2a deltaF0,
+                deltaF-PUCCH-Format2b deltaF0
+              },
+              deltaPreambleMsg3 1
+            },
+            ul-CyclicPrefixLength len1
+          },
+          ue-TimersAndConstants 
+          {
+            t300 ms200,
+            t301 ms200,
+            t310 ms2000,
+            n310 n10,
+            t311 ms3000,
+            n311 n1
+          },
+          freqInfo 
+          {
+            ul-CarrierFreq 19400,
+            ul-Bandwidth n50,
+            additionalSpectrumEmission 1
+          },
+          mbsfn-SubframeConfigList 
+          {
+            {
+              radioframeAllocationPeriod n4,
+              radioframeAllocationOffset 0,
+              subframeAllocation fourFrames : '01100010 00000110 00100000'B
+            }
+          },
+          timeAlignmentTimerCommon sf10240
+        }
+      }
+    }
+  }
+}
+
+08:48:47.295 08:48:47.295 [39;49mINF[0m: UEC-1: subframePattern40:1100111010101011110011001111101010111100000000000000000000000000
+08:48:47.295 08:48:47.295 [39;49mINF[0m: UEC-1: subframePattern40:1100111010101011110011001111101010111100000000000000000000000000
+08:48:47.295 08:48:47.295 [39;49mINF[0m: UEC-1: eNB 1 cell 1: systemInformationBlockType1-BR updated
+08:48:47.295 08:48:47.295 [36;49mTRC[0m: UEC-1[RRC]: <-DL_BCCH_SCH_BR eNodeB
+value BCCH-DL-SCH-Message-BR ::= 
+{
+  message c1 : systemInformationBlockType1-BR-r13 : 
+  {
+    cellAccessRelatedInfo 
+    {
+      plmn-IdentityList 
+      {
+        {
+          plmn-Identity 
+          {
+            mcc 
+            {
+              2,
+              6,
+              2
+            },
+            mnc 
+            {
+              0,
+              3
+            }
+          },
+          cellReservedForOperatorUse notReserved
+        },
+        {
+          plmn-Identity 
+          {
+            mcc 
+            {
+              2,
+              6,
+              2
+            },
+            mnc 
+            {
+              0,
+              3
+            }
+          },
+          cellReservedForOperatorUse notReserved
+        }
+      },
+      trackingAreaCode '00000000 00100001'B,
+      cellIdentity '00000000 00000000 00010000 0001'B,
+      cellBarred notBarred,
+      intraFreqReselection allowed,
+      csg-Indication FALSE
+    },
+    cellSelectionInfo 
+    {
+      q-RxLevMin -50
+    },
+    p-Max 33,
+    freqBandIndicator 3,
+    schedulingInfoList 
+    {
+      {
+        si-Periodicity rf64,
+        sib-MappingInfo 
+        {
+        }
+      }
+    },
+    si-WindowLength ms1,
+    systemInfoValueTag 1,
+    nonCriticalExtension 
+    {
+      nonCriticalExtension 
+      {
+        cellSelectionInfo-v920 
+        {
+          q-QualMin-r9 -34,
+          q-QualMinOffset-r9 1
+        },
+        nonCriticalExtension 
+        {
+          nonCriticalExtension 
+          {
+            cellAccessRelatedInfo-v1250 
+            {
+            },
+            nonCriticalExtension 
+            {
+              cellSelectionInfoCE-r13 
+              {
+                q-RxLevMinCE-r13 -50,
+                q-QualMinRSRQ-CE-r13 -34
+              },
+              bandwidthReducedAccessRelatedInfo-r13 
+              {
+                si-WindowLength-BR-r13 ms40,
+                si-RepetitionPattern-r13 every4thRF,
+                schedulingInfoList-BR-r13 
+                {
+                  {
+                    si-Narrowband-r13 8,
+                    si-TBS-r13 b408
+                  }
+                },
+                fdd-DownlinkOrTddSubframeBitmapBR-r13 subframePattern40-r13 : '11001110 10101011 11001100 11111010 101 ...'B,
+                startSymbolBR-r13 3,
+                si-HoppingConfigCommon-r13 off,
+                si-ValidityTime-r13 true
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:47.302 08:48:47.302 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType3 updated
+08:48:47.302 08:48:47.302 [36;49mTRC[0m: UEC-1[RRC]: <-DL-BCCH-SCH eNodeB
+value BCCH-DL-SCH-Message ::= 
+{
+  message c1 : systemInformation : 
+  {
+    criticalExtensions systemInformation-r8 : 
+    {
+      sib-TypeAndInfo 
+      {
+        sib3 : 
+        {
+          cellReselectionInfoCommon 
+          {
+            q-Hyst dB1,
+            speedStateReselectionPars 
+            {
+              mobilityStateParameters 
+              {
+                t-Evaluation s60,
+                t-HystNormal s60,
+                n-CellChangeMedium 3,
+                n-CellChangeHigh 6
+              },
+              q-HystSF 
+              {
+                sf-Medium dB-4,
+                sf-High dB-4
+              }
+            }
+          },
+          cellReselectionServingFreqInfo 
+          {
+            s-NonIntraSearch 1,
+            threshServingLow 1,
+            cellReselectionPriority 1
+          },
+          intraFreqCellReselectionInfo 
+          {
+            q-RxLevMin -65,
+            s-IntraSearch 31,
+            presenceAntennaPort1 TRUE,
+            neighCellConfig '00'B,
+            t-ReselectionEUTRA 1,
+            t-ReselectionEUTRA-SF 
+            {
+              sf-Medium oDot5,
+              sf-High oDot5
+            }
+          },
+          threshServingLowQ-r9 0
+        }
+      }
+    }
+  }
+}
+
+08:48:47.322 08:48:47.322 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType13 updated
+08:48:47.322 08:48:47.322 [36;49mTRC[0m: UEC-1[RRC]: <-DL-BCCH-SCH eNodeB
+value BCCH-DL-SCH-Message ::= 
+{
+  message c1 : systemInformation : 
+  {
+    criticalExtensions systemInformation-r8 : 
+    {
+      sib-TypeAndInfo 
+      {
+        sib13-v920 : 
+        {
+          mbsfn-AreaInfoList-r9 
+          {
+            {
+              mbsfn-AreaId-r9 1,
+              non-MBSFNregionLength s2,
+              notificationIndicator-r9 0,
+              mcch-Config-r9 
+              {
+                mcch-RepetitionPeriod-r9 rf64,
+                mcch-Offset-r9 0,
+                mcch-ModificationPeriod-r9 rf512,
+                sf-AllocInfo-r9 '010000'B,
+                signallingMCS-r9 n2
+              }
+            }
+          },
+          notificationConfig-r9 
+          {
+            notificationRepetitionCoeff-r9 n4,
+            notificationOffset-r9 0,
+            notificationSF-Index-r9 2
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:47.540 08:48:47.540 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:47.921 08:48:47.921 [39;49mINF[0m: UEC-1: 1 CE level(s) sent by the eNodeB in SIB2-BR
+08:48:47.921 08:48:47.921 [39;49mINF[0m: UEC-1: eNB 1 cell 1: SystemInformationBlockType2-BR updated
+08:48:47.921 08:48:47.921 [36;49mTRC[0m: UEC-1[RRC]: <-DL_BCCH_SCH_BR eNodeB
+value BCCH-DL-SCH-Message-BR ::= 
+{
+  message c1 : systemInformation-BR-r13 : 
+  {
+    criticalExtensions systemInformation-r8 : 
+    {
+      sib-TypeAndInfo 
+      {
+        sib2 : 
+        {
+          radioResourceConfigCommon 
+          {
+            rach-ConfigCommon 
+            {
+              preambleInfo 
+              {
+                numberOfRA-Preambles n4
+              },
+              powerRampingParameters 
+              {
+                powerRampingStep dB2,
+                preambleInitialReceivedTargetPower dBm-104
+              },
+              ra-SupervisionInfo 
+              {
+                preambleTransMax n3,
+                ra-ResponseWindowSize sf2,
+                mac-ContentionResolutionTimer sf8
+              },
+              maxHARQ-Msg3Tx 1,
+              preambleTransMax-CE-r13 n8,
+              rach-CE-LevelInfoList-r13 
+              {
+                {
+                  preambleMappingInfo-r13 
+                  {
+                    firstPreamble-r13 57,
+                    lastPreamble-r13 63
+                  },
+                  ra-ResponseWindowSize-r13 sf120,
+                  mac-ContentionResolutionTimer-r13 sf240,
+                  rar-HoppingConfig-r13 off
+                }
+              }
+            },
+            bcch-Config 
+            {
+              modificationPeriodCoeff n4
+            },
+            pcch-Config 
+            {
+              defaultPagingCycle rf128,
+              nB oneThirtySecondT
+            },
+            prach-Config 
+            {
+              rootSequenceIndex 12,
+              prach-ConfigInfo 
+              {
+                prach-ConfigIndex 20,
+                highSpeedFlag FALSE,
+                zeroCorrelationZoneConfig 0,
+                prach-FreqOffset 3
+              }
+            },
+            pdsch-ConfigCommon 
+            {
+              referenceSignalPower 11,
+              p-b 1
+            },
+            pusch-ConfigCommon 
+            {
+              pusch-ConfigBasic 
+              {
+                n-SB 1,
+                hoppingMode interSubFrame,
+                pusch-HoppingOffset 6,
+                enable64QAM FALSE
+              },
+              ul-ReferenceSignalsPUSCH 
+              {
+                groupHoppingEnabled FALSE,
+                groupAssignmentPUSCH 0,
+                sequenceHoppingEnabled FALSE,
+                cyclicShift 0
+              }
+            },
+            pucch-ConfigCommon 
+            {
+              deltaPUCCH-Shift ds1,
+              nRB-CQI 2,
+              nCS-AN 0,
+              n1PUCCH-AN 0
+            },
+            soundingRS-UL-ConfigCommon release : NULL,
+            uplinkPowerControlCommon 
+            {
+              p0-NominalPUSCH -80,
+              alpha al1,
+              p0-NominalPUCCH -116,
+              deltaFList-PUCCH 
+              {
+                deltaF-PUCCH-Format1 deltaF0,
+                deltaF-PUCCH-Format1b deltaF1,
+                deltaF-PUCCH-Format2 deltaF-2,
+                deltaF-PUCCH-Format2a deltaF-2,
+                deltaF-PUCCH-Format2b deltaF-2
+              },
+              deltaPreambleMsg3 1
+            },
+            ul-CyclicPrefixLength len1,
+            pcch-Config-v1310 
+            {
+              paging-narrowBands-r13 1,
+              mpdcch-NumRepetition-Paging-r13 r16,
+              nB-v1310 one64thT
+            },
+            freqHoppingParameters-r13 
+            {
+              interval-ULHoppingConfigCommonModeA-r13 interval-FDD-r13 : int1
+            },
+            prach-ConfigCommon-v1310 
+            {
+              rsrp-ThresholdsPrachInfoList-r13 
+              {
+                0
+              },
+              mpdcch-startSF-CSS-RA-r13 fdd-r13 : v2,
+              prach-ParametersListCE-r13 
+              {
+                {
+                  prach-ConfigIndex-r13 20,
+                  prach-FreqOffset-r13 3,
+                  maxNumPreambleAttemptCE-r13 n5,
+                  numRepetitionPerPreambleAttempt-r13 n1,
+                  mpdcch-NarrowbandsToMonitor-r13 
+                  {
+                    8
+                  },
+                  mpdcch-NumRepetition-RA-r13 r2,
+                  prach-HoppingConfig-r13 off
+                }
+              }
+            },
+            pucch-ConfigCommon-v1310 
+            {
+              n1PUCCH-AN-InfoList-r13 
+              {
+                132
+              },
+              pucch-NumRepetitionCE-Msg4-Level0-r13 n1
+            }
+          },
+          ue-TimersAndConstants 
+          {
+            t300 ms2000,
+            t301 ms2000,
+            t310 ms2000,
+            n310 n1,
+            t311 ms3000,
+            n311 n1
+          },
+          freqInfo 
+          {
+            ul-CarrierFreq 19400,
+            ul-Bandwidth n50,
+            additionalSpectrumEmission 1
+          },
+          timeAlignmentTimerCommon infinity
+        }
+      }
+    }
+  }
+}
+
+08:48:50.924 08:48:50.923 [37;41mACR[0m: MME-1: UE1: PagingRspTimer expiration (3)
+08:48:50.924 08:48:50.924 [30;43mWARN[0m: MME-1: UE1: UE hasn’t replied to paging by S-TMSI after 3 tries.
+08:48:50.924 08:48:50.924 [30;43mWARN[0m: MME-1: UE1: UE hasn’t replied to paging by S-TMSI after 3 tries.
+08:48:50.924 08:48:50.924 [30;43mWARN[0m: MME-1: UE1: UE hasn’t replied to paging by S-TMSI after 3 tries.
+08:48:50.924 08:48:50.924 [30;43mWARN[0m: MME-1: UE1: UE hasn’t replied to paging by S-TMSI after 3 tries.
+08:48:50.924 08:48:50.924 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:50.924 08:48:50.924 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:51.380 08:48:51.379 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:51.490 08:48:51.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:51.490 08:48:51.490 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:54.924 08:48:54.924 [37;41mACR[0m: MME-1: UE1: PagingRspTimer expiration (UE does not respond)
+08:48:55.003 08:48:55.003 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:55.003 08:48:55.003 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:55.220 08:48:55.220 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:55.262 08:48:55.262 [39;49mINF[0m: UEC-1: UE1: Wait Timer expired, retrying RRC CONNECTION
+08:48:55.263 08:48:55.263 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-CCCH eNodeB
+value UL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionRequest : 
+  {
+    criticalExtensions rrcConnectionRequest-r8 : 
+    {
+      ue-Identity s-TMSI : 
+      {
+        mmec '00000011'B,
+        m-TMSI '00000000 00000001 10111111 11011110'B
+      },
+      establishmentCause mo-Data,
+      spare '0'B
+    }
+  }
+}
+
+08:48:55.315 08:48:55.315 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-CCCH
+value DL-CCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetup : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetup-r8 : 
+    {
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 1,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms200,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms0,
+                t-StatusProhibit ms20
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        mac-MainConfig explicitValue : 
+        {
+          ul-SCH-Config 
+          {
+            retxBSR-Timer sf5120,
+            ttiBundling FALSE
+          },
+          timeAlignmentTimerDedicated infinity,
+          phr-Config setup : 
+          {
+            periodicPHR-Timer sf1000,
+            prohibitPHR-Timer sf200,
+            dl-PathlossChange dB6
+          },
+          sr-ProhibitTimer-r9 1
+        },
+        physicalConfigDedicated 
+        {
+          pdsch-ConfigDedicated 
+          {
+            p-a dB0
+          },
+          antennaInfo explicitValue : 
+          {
+            transmissionMode tm2,
+            ue-TransmitAntennaSelection release : NULL
+          },
+          schedulingRequestConfig setup : 
+          {
+            sr-PUCCH-ResourceIndex 73,
+            sr-ConfigIndex 75,
+            dsr-TransMax n64
+          },
+          epdcch-Config-r11 
+          {
+            config-r11 setup : 
+            {
+              setConfigToAddModList-r11 
+              {
+                {
+                  setConfigId-r11 0,
+                  transmissionType-r11 distributed,
+                  resourceBlockAssignment-r11 
+                  {
+                    numberPRB-Pairs-r11 n2,
+                    resourceBlockAssignment-r11 '1110'B
+                  },
+                  dmrs-ScramblingSequenceInt-r11 1,
+                  pucch-ResourceStartOffset-r11 0,
+                  numberPRB-Pairs-v1310 setup : n6,
+                  mpdcch-config-r13 setup : 
+                  {
+                    csi-NumRepetitionCE-r13 sf1,
+                    mpdcch-pdsch-HoppingConfig-r13 off,
+                    mpdcch-StartSF-UESS-r13 fdd-r13 : v2,
+                    mpdcch-NumRepetition-r13 r2,
+                    mpdcch-Narrowband-r13 8
+                  }
+                }
+              }
+            }
+          },
+          pucch-ConfigDedicated-r13 
+          {
+            ackNackRepetition-r13 release : NULL,
+            spatialBundlingPUCCH-r13 FALSE,
+            spatialBundlingPUSCH-r13 FALSE,
+            harq-TimingTDD-r13 FALSE,
+            pucch-NumRepetitionCE-r13 setup : modeA : 
+            {
+              pucch-NumRepetitionCE-format1-r13 r1,
+              pucch-NumRepetitionCE-format2-r13 r1
+            }
+          },
+          ce-Mode-r13 setup : ce-ModeA
+        }
+      }
+    }
+  }
+}
+
+08:48:55.316 08:48:55.315 [39;49mINF[0m: UEC-1: UE1: eNB has changed Transmission Mode to TM2
+08:48:55.316 08:48:55.315 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionSetupComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : rrcConnectionSetupComplete-r8 : 
+    {
+      selectedPLMN-Identity 1,
+      dedicatedInfoNAS 'C7020000'H
+    }
+  }
+}
+
+08:48:55.330 08:48:55.329 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:55.330 08:48:55.330 [36;49mTRC[0m: UEC-1[RRC]: <-DL-PCCH eNodeB
+value PCCH-Message ::= 
+{
+  message c1 : paging : 
+  {
+    pagingRecordList 
+    {
+      {
+        ue-Identity s-TMSI : 
+        {
+          mmec '00000011'B,
+          m-TMSI '00000000 00000001 10111111 11011110'B
+        },
+        cn-Domain ps
+      }
+    }
+  }
+}
+
+08:48:55.373 08:48:55.373 [39;49mINF[0m: MME-1: UE1: eNB=1, ENB_UE_S1AP_ID=3. S1:INITIAL_UE_MESSAGE[NAS:SERVICE_REQUEST] received. TAI:262:03:33, Open Cell
+08:48:55.387 08:48:55.387 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : securityModeCommand : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : securityModeCommand-r8 : 
+    {
+      securityConfigSMC 
+      {
+        securityAlgorithmConfig 
+        {
+          cipheringAlgorithm eea0,
+          integrityProtAlgorithm eia0-v920
+        }
+      }
+    }
+  }
+}
+
+08:48:55.387 08:48:55.387 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : securityModeComplete : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions securityModeComplete-r8 : 
+    {
+    }
+  }
+}
+
+08:48:55.397 08:48:55.397 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityEnquiry : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityEnquiry-r8 : 
+    {
+      ue-CapabilityRequest 
+      {
+        eutra
+      },
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          nonCriticalExtension 
+          {
+            requestedMaxCCsDL-r13 2,
+            requestedMaxCCsUL-r13 2
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:55.397 08:48:55.397 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> E-UTRA capability
+value UE-EUTRA-Capability ::= 
+{
+  accessStratumRelease rel13,
+  ue-Category 5,
+  pdcp-Parameters 
+  {
+    supportedROHC-Profiles 
+    {
+      profile0x0001-r15 TRUE,
+      profile0x0002-r15 TRUE,
+      profile0x0003-r15 TRUE,
+      profile0x0004-r15 TRUE,
+      profile0x0006-r15 TRUE,
+      profile0x0101-r15 TRUE,
+      profile0x0102-r15 TRUE,
+      profile0x0103-r15 TRUE,
+      profile0x0104-r15 TRUE
+    }
+  },
+  phyLayerParameters 
+  {
+    ue-TxAntennaSelectionSupported FALSE,
+    ue-SpecificRefSigsSupported FALSE
+  },
+  rf-Parameters 
+  {
+    supportedBandListEUTRA 
+    {
+      {
+        bandEUTRA 3,
+        halfDuplex FALSE
+      }
+    }
+  },
+  measParameters 
+  {
+    bandListEUTRA 
+    {
+      {
+        interFreqBandList 
+        {
+          {
+            interFreqNeedForGaps FALSE
+          }
+        }
+      }
+    }
+  },
+  featureGroupIndicators '10101010 10101010 10111010 10101010'B,
+  interRAT-Parameters 
+  {
+  },
+  nonCriticalExtension 
+  {
+    phyLayerParameters-v920 
+    {
+    },
+    interRAT-ParametersGERAN-v920 
+    {
+    },
+    csg-ProximityIndicationParameters-r9 
+    {
+    },
+    neighCellSI-AcquisitionParameters-r9 
+    {
+    },
+    son-Parameters-r9 
+    {
+    },
+    nonCriticalExtension 
+    {
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          nonCriticalExtension 
+          {
+            nonCriticalExtension 
+            {
+              pdcp-Parameters-v1130 
+              {
+              },
+              rf-Parameters-v1130 
+              {
+              },
+              measParameters-v1130 
+              {
+              },
+              interRAT-ParametersCDMA2000-v1130 
+              {
+              },
+              otherParameters-r11 
+              {
+              },
+              nonCriticalExtension 
+              {
+                nonCriticalExtension 
+                {
+                  nonCriticalExtension 
+                  {
+                    nonCriticalExtension 
+                    {
+                      nonCriticalExtension 
+                      {
+                        nonCriticalExtension 
+                        {
+                          nonCriticalExtension 
+                          {
+                            nonCriticalExtension 
+                            {
+                              ue-CategoryDL-v1310 m1,
+                              ue-CategoryUL-v1310 m1,
+                              pdcp-Parameters-v1310 
+                              {
+                              },
+                              rlc-Parameters-v1310 
+                              {
+                              },
+                              ce-Parameters-r13 
+                              {
+                                ce-ModeA-r13 supported
+                              },
+                              interRAT-ParametersWLAN-r13 
+                              {
+                              },
+                              wlan-IW-Parameters-v1310 
+                              {
+                              },
+                              lwip-Parameters-r13 
+                              {
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:55.397 08:48:55.397 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : ueCapabilityInformation : 
+  {
+    rrc-TransactionIdentifier 2,
+    criticalExtensions c1 : ueCapabilityInformation-r8 : 
+    {
+      ue-CapabilityRAT-ContainerList 
+      {
+        {
+          rat-Type eutra,
+          ueCapabilityRAT-Container 'D61FF000800055555D5500100080451002 ...'H
+        }
+      },
+      nonCriticalExtension 
+      {
+        nonCriticalExtension 
+        {
+          ue-RadioPagingInfo-r12 
+          {
+            ce-ModeA-r13 true
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:55.467 08:48:55.466 [36;49mTRC[0m: UEC-1: UE1[RRC]: <- DL-DCCH
+value DL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfiguration : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions c1 : rrcConnectionReconfiguration-r8 : 
+    {
+      measConfig 
+      {
+        measObjectToAddModList 
+        {
+          {
+            measObjectId 1,
+            measObject measObjectEUTRA : 
+            {
+              carrierFreq 1400,
+              allowedMeasBandwidth mbw50,
+              presenceAntennaPort1 TRUE,
+              neighCellConfig '00'B,
+              blackCellsToAddModList 
+              {
+                {
+                  cellIndex 1,
+                  physCellIdRange 
+                  {
+                    start 499,
+                    range n4
+                  }
+                }
+              }
+            }
+          }
+        },
+        measGapConfig release : NULL
+      },
+      radioResourceConfigDedicated 
+      {
+        srb-ToAddModList 
+        {
+          {
+            srb-Identity 2,
+            rlc-Config explicitValue : am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms200,
+                pollPDU pInfinity,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms0,
+                t-StatusProhibit ms20
+              }
+            },
+            logicalChannelConfig defaultValue : NULL
+          }
+        },
+        drb-ToAddModList 
+        {
+          {
+            eps-BearerIdentity 5,
+            drb-Identity 4,
+            pdcp-Config 
+            {
+              discardTimer ms750,
+              rlc-AM 
+              {
+                statusReportRequired FALSE
+              },
+              headerCompression notUsed : NULL
+            },
+            rlc-Config am : 
+            {
+              ul-AM-RLC 
+              {
+                t-PollRetransmit ms400,
+                pollPDU p64,
+                pollByte kBinfinity,
+                maxRetxThreshold t16
+              },
+              dl-AM-RLC 
+              {
+                t-Reordering ms0,
+                t-StatusProhibit ms20
+              }
+            },
+            logicalChannelIdentity 3,
+            logicalChannelConfig 
+            {
+              ul-SpecificParameters 
+              {
+                priority 10,
+                prioritisedBitRate kBps8,
+                bucketSizeDuration ms50,
+                logicalChannelGroup 3
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+08:48:55.468 08:48:55.467 [36;49mTRC[0m: UEC-1: UE1[RRC]: -> UL-DCCH
+value UL-DCCH-Message ::= 
+{
+  message c1 : rrcConnectionReconfigurationComplete : 
+  {
+    rrc-TransactionIdentifier 1,
+    criticalExtensions rrcConnectionReconfigurationComplete-r8 : 
+    {
+    }
+  }
+}
+
+08:48:55.532 08:48:55.532 [39;49mINF[0m: MME-1: UE1: ----- UE IM EXIT PROCEDURE IS COMPLETED. eNB=1 -----
+08:48:55.532 08:48:55.532 [39;49mINF[0m: MME-1: UE1: === UE IS ACTIVE (eNB=1, TAI:262:03:33, Open Cell, SGW=1, Attach type: EPS_ATTACH) ===
+08:50:03.412 Session with id 1 was connected at Fri Jul 27 08:50:03 2018
+[session 1]: 20180727085003
+[31;49mError[0m: ../src/linux/gate/cmds/invoker/src/Invoker.cpp:598: Command 20180727085003 is unknown
+08:50:03.501 Session with id 1 was disconnected at Fri Jul 27 08:50:03 2018
+08:50:03.704 Session with id 1 was connected at Fri Jul 27 08:50:03 2018
+[session 1]: set_log flush

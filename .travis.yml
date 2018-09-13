@@ -9,6 +9,7 @@ before_install:
   export INTERPRETER=python;
 
 install:
+  - pip install -U coveralls pycodestyle pytest-mccabe pytest-random
   - pip install -r requirements.cfg
 matrix:
   include:
@@ -31,3 +32,10 @@ before_script:
     fi
 script:
 - $INTERPRETER utest/run.py utest
+- coverage run --source=src,test -m py.test --random -s -vv
+- pycodestyle src
+- if [[ $TRAVIS_PYTHON_VERSION == 3.6 ]]; then python3.6 -m pytest --mccabe src; fi
+- if [[ $TRAVIS_PYTHON_VERSION == 2.7 ]]; then python2 -m pytest --mccabe src; fi
+
+after_success:
+- if [[ $TRAVIS_PYTHON_VERSION == 3.6 && $TRAVIS_OS_NAME == "linux" ]]; then coveralls; fi

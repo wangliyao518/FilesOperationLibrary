@@ -1,0 +1,8 @@
+[
+  "utest/test/test_hand_xml.py::TestXmlHandler::test_add_node", 
+  "utest/test/test_hand_xml.py::TestXmlHandler::test_get_node_attribute", 
+  "utest/test/test_hand_xml.py::TestXmlHandler::test_get_node_text", 
+  "utest/test/test_hand_xml.py::TestXmlHandler::test_modify_node_attribute", 
+  "utest/test/test_hand_xml.py::TestXmlHandler::test_modify_node_text", 
+  "utest/test/test_interface.py::TestKissFilesInterfaceXML::test__modify_scfc_text"
+]

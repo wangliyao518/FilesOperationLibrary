@@ -1,0 +1,44 @@
+#--------profile.txt--------#
+
+0x100410 = 5 #ERadCcs_AaSysLogOutputMode - UDP logging enabled
+0x140020 = 2 # MUecRandDebugLogEnabledGlobal
+0x140021 = 2 # MUecRandDebugLogEnabledUec
+0x14001e = 2 # MUecRandDebugLogEnabledCommon
+0x14001f = 2 # MUecRandDebugLogEnabledCommonCodec
+0x1a1020 = 2 #TRSW_DBG_ETHSEC_DISABLED
+0x1e1084 = 6
+0x1e1148 = 0x80400803
+0x301010 = 1 #Prevent SW fallback if config validation fails
+0x3a1001 = 1 #Enable IM testport 12345
+0x1a1077 = 0 #Disable  Prevent cross-site request forgery (CSRF)
+0x15101b = 1 # TTupcRadSctpWaitTimeInitSeqRetryOverride, TUPC waiting time for s messagereconnect
+0x191030 = 0 # disable HWF
+0xf010e = 1 # MCellcRadDebugLogEnabledGlobal
+0xf010f = 1 # MCellcRadDebugLogEnabledCellc
+0xf0110 = 1 # MCellcRadDebugLogEnabledCommon
+0xf0111 = 1 # MCellcRadDebugLogEnabledCommonCodec
+# TEnbcRadDebugLogEnabledGlobal
+0x113001 = 0 
+0x113002 = 0 # EnbcR&DDebugLogEnabledEnbc
+0x112003 = 0 # EnbcR&DebugLogEnabledCommon
+0x112004 = 0 # EnbcR&dDebugLogEnabledCommonCodec
+0x121004 = 1 # RromR&dDebugLogEnabledGlobal
+0x121005 = 1 # RromR&dDebugLogEnabledRrom
+0x121006 = 1 # RromR&dDebugLogEnabledCommon
+0x151001 = 1 # TupcR&dDebugLogEnabledGlobal
+0x151002 = 1 # TupcR&dDebugLogEnabledTupc
+0x151004 = 1 # TupcR&dDebugLogEnabledCommon
+0x152003 = 1 # TupcR&dDebugLogEnabledCommonCodec
+0xa0254 = 0xddddd5dd # MAC
+0xa0356 = 0xddddd5dd # MAC
+0xa0158 = 0xddd5dddd # MAC
+0x341000 = 15 # R&dLteBSTAT_PmIntervalShrinkRatio, PM counter interval
+0x10140 = 2 # R&dCcs_AaSysLogOutputLevel
+0x1023f = 2 # R&dCcs_AaSysLogInputLevel
+0x411000 = 1 # TTupRadEnableSipMonitor
+#RRPMANGE debug
+245 = 1 
+249 = 1 #SWMANGE debug
+274 = 1
+275 = 1 #BBCOM debug
+312 = 1 #DSPI startup

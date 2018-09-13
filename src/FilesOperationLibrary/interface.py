@@ -2,15 +2,15 @@
 """
 :created on: 2018/8/28
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 
 import logging
 import os
 import shutil
-from  store import Store
+from store import Store
 from .handle_xml import XmlHandler
 from .handle_txt import TxtHandler
 from .handle_ftp import FtpHandler

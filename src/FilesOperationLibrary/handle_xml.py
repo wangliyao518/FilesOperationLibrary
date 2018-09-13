@@ -2,7 +2,7 @@
 """
 :created on: 5-11-2017
 
-:copyright: 
+:copyright:
 :author: leo
 :contact:
 """
@@ -33,8 +33,8 @@ class XmlHandler(object):
         self._save_path = save_path
         self._xml_inst = XML()
         self._xml_parser = self._xml_inst.parse_xml(self._src_path)
-        #lxml_parser = lxml.etree.ETCompatXMLParser()
-        #self._lxml_parser = lxml.etree.parse(self._src_path)
+        # lxml_parser = lxml.etree.ETCompatXMLParser()
+        # self._lxml_parser = lxml.etree.parse(self._src_path)
 
     def teardown(self, **kwargs):
         """pair up the function setup
@@ -88,7 +88,7 @@ class XmlHandler(object):
             attr_name = arg.split(':@')[-1].split('=')[0]
             try:
                 self._xml_inst.set_elements_attribute(self._xml_parser, attr_name, value, node_path)
-            except:
+            except Exception:
                 self._log.debug("not found any elements, please check your xpath!--%s.", node_path)
 
     def add_node(self, *args):
@@ -141,11 +141,11 @@ class XmlHandler(object):
                     ret_list.append(self._xml_inst.get_element_text(ele))
             except SyntaxError:
                 print '****SyntaxError****'
-                #root = self._lxml_parser.getroot()
-                #elements = root.xpath(each_node)
-                #if not elements:
+                # root = self._lxml_parser.getroot()
+                # elements = root.xpath(each_node)
+                # if not elements:
                 #    raise TAFileException("not found any elements, please check your xpath!--%s." % each_node)
-                #for ele in elements:
+                # for ele in elements:
                 #    ret_list.append(ele.text)
 
         return ret_list

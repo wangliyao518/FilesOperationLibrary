@@ -2,7 +2,7 @@
 """
 :created on: 5-22-2017
 
-:copyright: 
+:copyright:
 :author: leo
 :contact:
 """
@@ -52,7 +52,7 @@ class TxtHandler(object):
             comment = ''
             for i in range(total_line):
                 assignment = self._txt_data[i].split("#")[0]
-                comment = self._txt_data[i][self._txt_data[i].find("#")+1:]
+                comment = self._txt_data[i][self._txt_data[i].find("#") + 1:]
                 get_param = assignment.split("=")[0].strip()
                 if param == get_param:
                     if comment == self._txt_data[i] or comment.strip() == '':
@@ -122,6 +122,7 @@ class TxtHandler(object):
         else:
             self._log.debug("more than one value for %s is found, please check your file!", param)
             return ret_list[-1]
+
 
 if __name__ == '__main__':
     pass

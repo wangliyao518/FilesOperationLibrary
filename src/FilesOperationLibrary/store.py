@@ -2,9 +2,9 @@
 """
 :created on: 2018/8/28
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 from .exception import AliasError, NameIsProtected
 

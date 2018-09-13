@@ -2,9 +2,9 @@
 """
 :created on: 6-23-2018
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 
 import logging
@@ -39,7 +39,7 @@ class BinHandler(object):
                     read_tag = True
                     read_value = False
                     if len(get_value) != 0:
-                        target_pos = self._file_object.tell()-len(get_value)-1
+                        target_pos = self._file_object.tell() - len(get_value) - 1
                         pos_value_list.append((target_pos, get_value))
                         self._log.info("find tag '%s' at 'pos': %s", tagname, target_pos)
                         break

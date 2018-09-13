@@ -2,7 +2,7 @@
 """
 :created on: 7-6-2017
 
-:copyright: 
+:copyright:
 :author: leo
 :contact:
 """
@@ -69,7 +69,7 @@ class ArchiveFile(object):
                     new_src_file = root + r'/' + sigle_file
                     self.un_gz(new_src_file)
 
-                for file_type in ZIPS+TARS:
+                for file_type in ZIPS + TARS:
                     if sigle_file.endswith(file_type):
                         new_src_file = root + r'/' + sigle_file
                         new_dest_path = root + r'/' + sigle_file[0:sigle_file.rfind(file_type)]

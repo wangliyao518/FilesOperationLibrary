@@ -2,7 +2,7 @@
 """
 :created on: 7-12-2017
 
-:copyright: 
+:copyright:
 :author: leo
 :contact:
 """
@@ -119,13 +119,13 @@ class OperateLog(object):
                 if type(self.file_content[start_index[num]]) is str:
                     try:
                         self.file_content[start_index[num]] = self.file_content[start_index[num]].decode('utf-8')
-                    except:
+                    except Exception:
                         pass
 
             for num in range(len(start_index) - 1):
                 if ue_id in self.file_content[start_index[num]]:
                     frame_content.extend(self.file_content[
-                                    start_index[num]:start_index[num + 1]])
+                                         start_index[num]:start_index[num + 1]])
             with open(new_file_path, 'a') as fw:
                 fw.writelines(str(frame_content))
 

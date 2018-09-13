@@ -2,8 +2,8 @@
 """
 :created on: 2018/08/28
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 from .interface import FilesOperationLibrary

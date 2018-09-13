@@ -2,7 +2,7 @@
 """
 :created on: 6-26-2017
 
-:copyright: 
+:copyright:
 :author: leo
 :contact:
 """

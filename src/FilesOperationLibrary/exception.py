@@ -2,9 +2,9 @@
 """
 :created on: 25-07-2018
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 
 
@@ -18,6 +18,7 @@ class NameIsProtected(StoreException):
 
 class AliasError(StoreException):
     """Exception raised if alias doesn't exist."""
+
 
 class TAFileException(Exception):
     """Exception"""

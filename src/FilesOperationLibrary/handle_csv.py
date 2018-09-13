@@ -2,9 +2,9 @@
 """
 :created on: 6-22-2017
 
-:copyright: 
+:copyright:
 :author: leo
-:contact: 
+:contact:
 """
 
 import logging

@@ -9,6 +9,8 @@
 import unittest
 import os
 import FtpLibrary
+import sys
+sys.path.append('src')
 from FilesOperationLibrary.exception import TAFileException
 from FilesOperationLibrary.interface import OperateXml
 from FilesOperationLibrary.interface import OperateTxt

@@ -9,6 +9,8 @@
 import unittest
 import os
 from mock import patch, PropertyMock, Mock
+import sys
+sys.path.append('src')
 from FilesOperationLibrary.handle_xml import XmlHandler
 import StringIO
 import lxml.etree

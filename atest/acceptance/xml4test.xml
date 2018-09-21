@@ -6,7 +6,7 @@
    <log activeion="modified" dateTime="0117-07-31T02:52:05">Run migration rules in eqm</log>
    <log activeion="create" dateTime="2004-01-01T00:01:39" />
   </header>
-  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-1/dd-0" operation="create" version="17A_1701_07_1701_06">
+  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-1" operation="create" version="17A_1701_07_1701_06">
    <p name="applyOutOfSyncState">extendedddOnly</p>
    <p name="ddApplyDeviceType">true</p>
    <list name="ddProfile1">
@@ -23,7 +23,7 @@
    </list>
    <p name="stInactiveFactiveor">1</p>
   </managedObject>
-  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-2/dd-0" operation="create" version="17A_1701_07_1701_06">
+  <managedObject className="TEST:dd" funName="TOPBTS-1/L2BTS-1/LNCEL-2" operation="create" version="17A_1701_07_1701_06">
    <p name="applyOutOfSyncState">extendedddOnly</p>
    <p name="ddApplyDeviceType">true</p>
    <list name="ddProfile1">
@@ -182,7 +182,7 @@
    <p name="rrcGuardTimer">20</p>
   </managedObject>
   <managedObject className="TEST:LNCEL" funName="TOPBTS-1/L2BTS-1/LNCEL-1" operation="create" version="17A_1701_07_1701_06">
-   <p name="a1TimeToTriggerDeactiveInterMeas">480ms</p>
+   <p name="a1TimeToTriggerDeactiveInterMeas">40</p>
    <p name="activeUlLnkAdp">eUlLa</p>
    <p name="activeUlpcMethod">PuschCLPucchCL</p>
    <list name="distPucch">
@@ -240,6 +240,7 @@
   </managedObject>
   <managedObject className="TEST:LNCEL" funName="TOPBTS-1/L2BTS-1/LNCEL-2" operation="create" version="17A_1701_07_1701_06">
    <p name="a1TimeToTriggerDeactiveInterMeas">480ms</p>
+   <p name="activeUlpcMethod">PuschCLPucchCL</p>
    <p name="a2RedirectQci1">enabled</p>&gt;
    <p name="csgType">openAccess</p>
    <list name="distPucch">

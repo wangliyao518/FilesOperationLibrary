@@ -71,3 +71,12 @@ test_get_bts_node_attribute_one_argument_example
     should_be_equal    @{all_value}[0]    17A_1701_07_1701_06
     should_be_equal    @{all_value}[1]    17A_1701_07_1701_06
     [teardown]    teardown_xml
+
+
+test_modify_xml_text_by_position_example
+    setup_xml    src_file=${CURDIR}/xml4test.xml    save_path=${CURDIR}/xml4test_8.xml
+    modify_xml_text    .//managedObject[@className\="RED"]/list/p[1]:-1
+    @{all_value}=    read_xml_text        .//managedObject[@className\="RED"]/list/p[1]
+    should_be_equal    @{all_value}[0]    -1
+    [teardown]    teardown_xml
+

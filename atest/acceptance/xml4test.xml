@@ -316,5 +316,15 @@
    <p name="antlDN">TOPBTS-1/EQM-1/APEQM-1/RMOD-2/ANTL-7</p>
    <p name="direction">RX</p>
   </managedObject>
+  <managedObject className="RED" distName="MRBTS-174/RED-1" operation="create" version="17A_1701_07_1701_06">
+   <p name="redirectPr">5</p>
+   <list name="redirFreqUtra">
+    <p>1</p>
+    <p>2</p>
+    <p>3</p>
+    <p>4</p>
+    <p>5</p>
+   </list>
+  </managedObject>
  </cmData>
 </raml>
